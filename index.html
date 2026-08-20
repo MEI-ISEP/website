@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-i18n="meta.home">MEI · Mestrado em Engenharia Informática · ISEP</title>
+<meta name="description" data-i18n-attr="content:meta.homeDesc" content="">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="site.css">
+</head>
+<body data-page="home">
+
+<div id="site-nav"></div>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero__hatch"></div>
+  <div class="hero__inner">
+    <div class="hero__kicker reveal in">
+      <span data-i18n="hero.k1"></span><span>·</span><span data-i18n="hero.k2"></span><span>·</span><b data-i18n="hero.k3"></b>
+    </div>
+    <h1 class="hero__mei reveal in" data-d="1">M<span>EI</span></h1>
+    <p class="hero__title reveal in" data-d="2" data-i18n="hero.title"></p>
+    <p class="hero__intro reveal in" data-d="3" data-i18n="hero.intro"></p>
+    <div class="hero__actions reveal in" data-d="3">
+      <a class="btn btn--primary" href="#especializacoes"><span data-i18n="hero.ctaSpec"></span> <span class="arr">→</span></a>
+      <a class="btn btn--ghost-light" href="candidatura.html" data-i18n="hero.ctaApply"></a>
+    </div>
+    <div class="hero__stats reveal in" data-d="3">
+      <div class="hero__stat"><div class="n">120</div><div class="l" data-i18n="hero.s1"></div></div>
+      <div class="hero__stat"><div class="n" data-i18n="hero.s2n"></div><div class="l" data-i18n="hero.s2"></div></div>
+      <div class="hero__stat"><div class="n">5</div><div class="l" data-i18n="hero.s3"></div></div>
+      <div class="hero__stat"><div class="n"><b>18</b>:10</div><div class="l" data-i18n="hero.s4"></div></div>
+    </div>
+  </div>
+  <div class="scrollcue"><span data-i18n="hero.scroll"></span><span class="ln"></span></div>
+</section>
+
+<!-- ============ O CURSO / PILLARS ============ -->
+<section class="section" id="curso">
+  <div class="wrap">
+    <p class="eyebrow reveal" data-i18n="curso.eyebrow"></p>
+    <h2 class="h-lg reveal" data-i18n="curso.h2"></h2>
+    <p class="lead reveal" style="margin-top:18px;" data-i18n="curso.lead">A Engenharia Informática está presente em praticamente todos os setores, num contexto em que dados, automação e sistemas inteligentes transformam a forma como as organizações operam. O Mestrado em Engenharia Informática combina uma base comum de prática avançada de engenharia com cinco ramos de especialização e uma forte componente prática: Cibersegurança e Administração de Sistemas, Engenharia de Dados, Engenharia de Software, Jogos, Sistemas Gráficos e Interativos, e Sistemas de Informação e Conhecimento.</p>
+    <p class="body reveal" style="margin-top:16px;max-width:72ch;" data-i18n="curso.p1"><span class="lede">Uma formação concebida para a exigência da vida profissional.</span> O MEI destina-se a profissionais em atividade e a recém-licenciados de elevado potencial que pretendam aprofundar uma das áreas mais determinantes da engenharia informática. Assenta num modelo de conceber, desenhar, implementar e operar sistemas reais, e é um dos poucos mestrados em Portugal com acreditação ABET.</p>
+    <p class="body reveal" style="margin-top:16px;max-width:72ch;" data-i18n="curso.p2"><span class="lede">A Inteligência Artificial (IA) como ferramenta, não como fim.</span> Hoje, resolver problemas reais passa quase sempre por saber aplicar IA. Mas a IA, por si só, não resolve problemas: o desafio está em integrá-la de forma criteriosa em soluções com impacto real. É esta combinação de especialização, pensamento crítico e IA que faz a diferença no percurso profissional.</p>
+    <div class="pillars" id="pillars"></div>
+    <p class="eyebrow muted reveal" style="margin-top:54px;" data-i18n="curso.glance"></p>
+    <div class="glance" id="glance"></div>
+  </div>
+</section>
+
+<!-- ============ ESPECIALIZAÇÕES ============ -->
+<section class="section spec" id="especializacoes">
+  <div class="wrap">
+    <div class="spec__head">
+      <div>
+        <p class="eyebrow reveal" data-i18n="spec.eyebrow"></p>
+        <h2 class="h-lg reveal" data-i18n="spec.h2"></h2>
+      </div>
+      <p class="body reveal" style="margin-bottom:4px;" data-i18n="spec.body">O 1.º ano assegura o aprofundamento da área escolhida, através de oito unidades curriculares distribuídas por dois semestres. O 2.º ano promove a integração de conhecimentos e culmina no trabalho final. As especializações não são compartimentos estanques: é possível frequentar unidades curriculares de outras áreas, uma vez que os desafios reais raramente cabem numa só disciplina.</p>
+    </div>
+    <div class="spec__tabs reveal" id="specTabs" role="tablist"></div>
+    <div id="specPanel"></div>
+    <div class="fifth-note reveal" id="fifthNote"></div>
+    <div class="adv reveal" id="adv"></div>
+  </div>
+</section>
+
+<!-- ============ ESTRUTURA ============ -->
+<section class="section" id="estrutura">
+  <div class="wrap">
+    <p class="eyebrow reveal" data-i18n="estrutura.eyebrow"></p>
+    <h2 class="h-lg reveal" data-i18n="estrutura.h2"></h2>
+    <p class="lead reveal" style="margin-top:18px;" data-i18n="estrutura.lead">O 1.º ano é dedicado ao aprofundamento da área escolhida. O 2.º ano amplia o âmbito da formação através de um laboratório integrador e de unidades comuns de inovação e preparação para a investigação. No semestre final, o estudante escolhe o seu rumo: uma dissertação académica, um projeto em empresa ou um estágio de investigação, em qualquer dos casos submetido a defesa pública.</p>
+    <div class="arc reveal">
+      <div class="arc__cell"><div class="arc__step">01</div><div class="arc__sem" data-i18n="estrutura.a1sem"></div><div class="arc__big" data-i18n="estrutura.a1big"></div><div class="arc__sub" data-i18n="estrutura.a1sub"></div></div>
+      <div class="arc__cell"><div class="arc__step">02</div><div class="arc__sem" data-i18n="estrutura.a2sem"></div><div class="arc__big" data-i18n="estrutura.a2big"></div><div class="arc__sub" data-i18n="estrutura.a2sub"></div></div>
+      <div class="arc__cell accent"><div class="arc__step">03</div><div class="arc__sem" data-i18n="estrutura.a3sem"></div><div class="arc__big" data-i18n="estrutura.a3big"></div><div class="arc__sub" data-i18n="estrutura.a3sub"></div></div>
+    </div>
+    <p class="eyebrow muted reveal" style="margin-top:54px;" data-i18n="estrutura.common"></p>
+    <div class="common" id="common"></div>
+  </div>
+</section>
+
+<!-- ============ SAÍDAS ============ -->
+<section class="section" id="saidas">
+  <div class="wrap">
+    <p class="eyebrow reveal" data-i18n="saidas.eyebrow"></p>
+    <h2 class="h-lg reveal" data-i18n="saidas.h2"></h2>
+    <p class="lead reveal" id="careersLead" style="margin-top:18px;"></p>
+    <div class="chips reveal" id="chips"></div>
+    <div class="careers__note reveal" id="careersNote"></div>
+  </div>
+</section>
+
+<!-- ============ PARCEIROS ============ -->
+<section class="section partners" id="parceiros">
+  <div class="wrap">
+    <p class="eyebrow reveal" data-i18n="parceiros.eyebrow"></p>
+    <h2 class="h-lg reveal" data-i18n="parceiros.h2"></h2>
+    <p class="lead reveal" style="margin-top:18px;" data-i18n="parceiros.lead">O trabalho final é cada vez mais desenvolvido no seio de empresas e laboratórios de investigação, partindo de um problema real, com coorientação externa, e conduzindo a resultados com aplicação e impacto reconhecidos.</p>
+    <p class="body reveal" id="partnersLead" style="margin-top:16px;max-width:72ch;"></p>
+    <div class="partner-wall" id="partnerWall"></div>
+
+    <p class="eyebrow muted reveal" style="margin-top:54px;" data-i18n="parceiros.sectors"></p>
+    <div class="sectors reveal" id="sectors"></div>
+    <div class="callout reveal" id="sectorsNote"></div>
+
+    <p class="eyebrow muted reveal" style="margin-top:54px;" data-i18n="parceiros.research"></p>
+    <p class="body reveal" id="researchLead" style="margin-top:14px;max-width:72ch;"></p>
+    <div class="sectors reveal" id="research"></div>
+
+    <div class="repo reveal" id="repo"></div>
+
+    <p class="eyebrow muted reveal" style="margin-top:54px;" data-i18n="parceiros.coopEyebrow"></p>
+    <div class="coop-teaser reveal">
+      <div class="coop-teaser__t" data-i18n="parceiros.coopH"></div>
+      <div class="coop-teaser__d" data-i18n="parceiros.coopD"></div>
+      <a class="btn btn--dark" href="cooperacao.html"><span data-i18n="parceiros.coopCta"></span> <span class="arr">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACTOS / CLOSING ============ -->
+<section class="section closing" id="contactos">
+  <div class="wrap">
+    <p class="eyebrow reveal" data-i18n="contactos.eyebrow"></p>
+    <h2 class="h-lg reveal" style="color:#fff;" data-i18n="contactos.h2"></h2>
+    <div class="contact-grid reveal" id="contactGrid"></div>
+    <div class="closing__cta reveal">
+      <div class="closing__big" data-i18n="contactos.closingBig"></div>
+      <div class="closing__actions">
+        <a class="btn btn--primary" href="candidatura.html"><span data-i18n="contactos.ctaApply"></span> <span class="arr">→</span></a>
+        <a class="btn btn--ghost-light" href="mailto:mei@isep.ipp.pt">mei@isep.ipp.pt</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<div id="site-footer"></div>
+
+<script src="content.js"></script>
+<script src="content.en.js"></script>
+<script src="i18n.js"></script>
+<script src="nav.js"></script>
+<script src="reveal.js"></script>
+<script src="render.js"></script>
+</body>
+</html>

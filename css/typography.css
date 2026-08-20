@@ -1,0 +1,50 @@
+/* ============================================================
+   TYPOGRAPHY — MEI · ISEP Brochure Design System
+   Inter carries display + body; JetBrains Mono carries every
+   label, code and counter. Display is heavy (800/900) and
+   tightly tracked; mono labels are wide-tracked uppercase.
+   ============================================================ */
+:root {
+  /* ---- Families ---- */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --font-display: var(--font-sans);
+  --font-body: var(--font-sans);
+  --font-label: var(--font-mono);
+
+  /* ---- Weights ---- */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-heavy: 800;     /* institutional heads */
+  --weight-black: 900;     /* editorial heads, wordmark */
+
+  /* ---- Display tracking (heads get tighter as they grow) ---- */
+  --track-display: -0.015em;   /* institutional heads */
+  --track-display-tight: -0.02em;
+  --track-mega: -0.04em;       /* the giant MEI wordmark */
+  --leading-display: 1.06;
+  --leading-mega: 0.8;
+
+  /* ---- Body ---- */
+  --leading-body: 1.5;
+  --leading-snug: 1.35;
+  --text-body-size: 13px;
+  --text-lead-size: 15px;
+
+  /* ---- Mono label system (the brand's signature) ---- */
+  --label-size: 9.5px;
+  --label-track: 0.26em;       /* eyebrow tracking */
+  --label-track-wide: 0.2em;   /* running head / footer */
+  --label-weight: 500;
+  --label-transform: uppercase;
+
+  /* ---- Semantic roles ---- */
+  --type-eyebrow-family: var(--font-mono);
+  --type-eyebrow-color: var(--mei-red);
+  --type-head-family: var(--font-sans);
+  --type-head-weight: var(--weight-heavy);
+  --type-code-family: var(--font-mono);   /* SEGSI, RECOMP, ECTS counters */
+}

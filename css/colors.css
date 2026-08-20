@@ -1,0 +1,52 @@
+/* ============================================================
+   COLORS — MEI · ISEP Brochure Design System
+   A near-monochrome paper system with ONE accent: ISEP red.
+   The system ships two ink temperatures: a softer institutional
+   ink (#2D2D2D) and a harder editorial black (#17171A).
+   ============================================================ */
+:root {
+  /* ---- Brand accent (the only chromatic color) ---- */
+  --mei-red: #B32317;        /* ISEP red — eyebrows, rules, the middle letter of MEI */
+  --mei-red-deep: #8E1A11;   /* pressed / shadowed red */
+
+  /* ---- Ink ramp (text + dark surfaces) ---- */
+  --ink-900: #17171A;        /* editorial black — big heads, dark covers */
+  --ink-700: #2D2D2D;        /* institutional body ink */
+  --ink-500: #6B6B80;        /* muted — captions, mono labels, secondary */
+  --ink-300: #9A9AAC;        /* faint — placeholder labels on hatch */
+
+  /* ---- Paper + surfaces ---- */
+  --paper: #FFFFFF;          /* the page */
+  --soft: #F4F4F8;           /* cool soft fill — glance grids, callouts */
+  --soft-2: #ECECF3;         /* one step deeper cool fill */
+  --soft-warm: #F5F4F1;      /* warm paper used in the editorial cut */
+  --line: #E3E3EB;           /* hairline borders, table rules, dividers */
+
+  /* ---- Stage (the area AROUND the page) ---- */
+  --stage-grey: #C9C9D2;     /* institutional light-grey mat */
+  --stage-black: #0F0F12;    /* editorial near-black mat */
+
+  /* ---- Hatch (image placeholder weave) ---- */
+  --hatch-a: #ECECF2;
+  --hatch-b: #E4E4EC;
+  --hatch-dark-a: #26262C;
+  --hatch-dark-b: #1E1E24;
+
+  /* ================= SEMANTIC ALIASES ================= */
+  --text-strong: var(--ink-900);     /* display heads */
+  --text-body: var(--ink-700);       /* running body copy */
+  --text-muted: var(--ink-500);      /* labels, captions */
+  --text-accent: var(--mei-red);     /* eyebrows, links, emphasis */
+  --text-on-dark: #FFFFFF;
+  --text-on-dark-muted: rgba(255,255,255,.55);
+
+  --surface-page: var(--paper);
+  --surface-soft: var(--soft);
+  --surface-dark: var(--ink-900);
+
+  --accent: var(--mei-red);
+  --accent-press: var(--mei-red-deep);
+
+  --border-hairline: var(--line);
+  --border-strong: var(--ink-900);   /* the 2px editorial frame */
+}

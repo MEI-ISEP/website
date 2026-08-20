@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-i18n="meta.cand">Candidatura · MEI · ISEP</title>
+<meta name="description" data-i18n-attr="content:meta.candDesc" content="">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="site.css">
+</head>
+<body data-page="candidatura">
+
+<div id="site-nav"></div>
+
+<section class="subhero">
+  <div class="subhero__hatch"></div>
+  <div class="wrap subhero__inner">
+    <div class="crumb"><a href="index.html" data-i18n="cand.crumbHome"></a><span>/</span><span data-i18n="cand.crumb"></span></div>
+    <p class="eyebrow reveal in" data-i18n="cand.eyebrow"></p>
+    <h1 class="reveal in" data-d="1" data-i18n="cand.h1"></h1>
+    <p class="reveal in" id="admIntro" data-d="2"></p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow reveal" data-i18n="cand.stepsEyebrow"></p>
+    <h2 class="h-lg reveal" data-i18n="cand.stepsH2"></h2>
+    <div class="steps-list reveal" id="stepsList"></div>
+  </div>
+</section>
+
+<section class="section section--tight" style="background:var(--soft);">
+  <div class="wrap">
+    <p class="eyebrow muted reveal" data-i18n="cand.branchesEyebrow"></p>
+    <div class="branch-list reveal" id="branchList"></div>
+    <div class="callout reveal" id="applyNote"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow reveal" data-i18n="cand.caseEyebrow"></p>
+    <h2 class="h-lg reveal" data-i18n="cand.caseH2"></h2>
+    <div class="adm-two reveal" id="admTwo" style="margin-top:32px;"></div>
+    <div class="callout reveal" id="feesNote"></div>
+  </div>
+</section>
+
+<section class="section closing">
+  <div class="wrap">
+    <p class="eyebrow reveal" data-i18n="cand.closingEyebrow"></p>
+    <h2 class="h-lg reveal" style="color:#fff;" data-i18n="cand.closingH2"></h2>
+    <div class="closing__cta reveal" style="margin-top:32px;border-top:0;padding-top:0;">
+      <div class="closing__actions">
+        <a class="btn btn--primary" href="faq.html"><span data-i18n="cand.closingCta"></span> <span class="arr">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+
+<script src="content.js"></script>
+<script src="content.en.js"></script>
+<script src="i18n.js"></script>
+<script src="nav.js"></script>
+<script src="reveal.js"></script>
+<script src="candidatura.js"></script>
+</body>
+</html>

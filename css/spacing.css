@@ -1,0 +1,40 @@
+/* ============================================================
+   SPACING · SIZING · SHADOW — MEI · ISEP Brochure Design System
+   The page is a real A4 sheet. Layout breathes off an 18–20mm
+   margin; rhythm is driven by mono eyebrows + generous gaps.
+   ============================================================ */
+:root {
+  /* ---- Page geometry (print-true) ---- */
+  --page-w: 210mm;
+  --page-h: 297mm;
+  --pad-page: 18mm;        /* institutional margin */
+  --pad-page-lg: 20mm;     /* editorial margin */
+
+  /* ---- Spacing scale ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 22px;
+  --space-6: 26px;
+  --space-7: 34px;
+  --space-8: 48px;
+
+  /* ---- Radii (sparse — this system is mostly square) ---- */
+  --radius-none: 0px;
+  --radius-xs: 1px;        /* the red wordmark bar */
+  --radius-sm: 2px;        /* chips, label capsules, hatch labels */
+  --radius-pill: 999px;
+
+  /* ---- Borders ---- */
+  --border-hair: 1px;      /* hairline rules + cards */
+  --border-frame: 2px;     /* editorial black frame around grids */
+  --rule-accent: 3px;      /* the red divider under the cover wordmark */
+
+  /* ---- Shadows (only the page floats; content is flat) ---- */
+  --shadow-page: 0 6px 26px rgba(20,20,30,.22);   /* sheet on light mat */
+  --shadow-page-dark: 0 8px 34px rgba(0,0,0,.5);  /* sheet on dark mat */
+
+  /* ---- Running header / footer height ---- */
+  --runhead-h: 34px;
+}

@@ -1,0 +1,9 @@
+/* ============================================================
+   MEI · ISEP Brochure Design System
+   Global entry point — consumers link THIS file only.
+   Keep this file a list of @imports; no rules inline.
+   ============================================================ */
+@import "./css/fonts.css";
+@import "./css/colors.css";
+@import "./css/typography.css";
+@import "./css/spacing.css";
