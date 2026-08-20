@@ -141,8 +141,8 @@
   /* ---------- CAREERS ---------- */
   (function () {
     var box = $('#chips');
-    M.careers.forEach(function (c, i) {
-      box.appendChild(el('span', 'chip' + (i % 4 === 0 ? ' accent' : ''), c));
+    M.careers.forEach(function (c) {
+      box.appendChild(el('span', 'chip', c));
     });
     $('#careersLead').textContent = M.careersLead;
     $('#careersNote').textContent = M.careersNote;

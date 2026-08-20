@@ -90,7 +90,7 @@ window.MEI_PT = {
       eyebrow: "Parcerias",
       h2: "Trabalho de dissertação desenvolvido em articulação com a indústria e com investigação",
       lead: "O trabalho final é cada vez mais desenvolvido no seio de empresas e laboratórios de investigação, partindo de um problema real, com coorientação externa, e conduzindo a resultados com aplicação direta e impacto real.",
-      sectors: "Empresas parceiras, por setor",
+      sectors: "Empresas parceiras, por setor — lista não exaustiva",
       research: "Investigação",
       coopEyebrow: "Para empresas e instituições",
       coopH: "Quer estabelecer uma parceria com o MEI?",
@@ -386,7 +386,7 @@ window.MEI_PT = {
   },
 
   cooperation: {
-    intro: "O MEI tem como objetivo manter uma ligação próxima com quem trabalha com tecnologia todos os dias. Empresas, instituições públicas, startups e centros de investigação podem colaborar de diferentes formas. Desde uma palestra até uma dissertação dedicada a um desafio real. O princípio é simples: aproximar organizações de engenheiros especializados, trazer problemas reais para a sala de aula e transformar conhecimento em resultados concretos.",
+    intro: "O MEI tem como objetivo manter uma ligação próxima com quem trabalha com tecnologia todos os dias. Empresas, instituições públicas, startups e centros de investigação podem colaborar de diferentes formas. Desde uma palestra até uma dissertação dedicada a um desafio real. Queremos aproximar organizações de engenheiros especializados, trazer problemas reais para a sala de aula e transformar conhecimento em resultados concretos.",
     formsLead: "O MEI oferece oportunidades de parceria flexíveis a organizações que procuram aceder a talento, explorar novas ideias e resolver desafios reais.",
     forms: [
       {
@@ -943,7 +943,7 @@ window.MEI_PT = {
   ],
 
   partners: {
-    lead: "O ISEP forma engenheiros em contacto permanente com quem faz tecnologia todos os dias. Através do Portal de Projetos do DEI, empresas de referência submetem desafios concretos que dão origem a dissertações, projetos e estágios. Entre as colaborações mais recentes contam-se:",
+    lead: "O ISEP tem como desígnio formar engenheiros em contacto com quem faz tecnologia todos os dias. Através do Portal de Projetos, empresas de referência submetem desafios concretos que dão origem a dissertações, projetos e estágios. Entre as colaborações mais recentes contam-se:",
     sectors: [
       { k: "Software e consultoria de TI", v: "Armis Group · Celfocus · Devscope · Evoleo Technologies · InfoPortugal · ITSector · Novabase · Sistrade · Wipro Portugal · Xarevision · XpandIT" },
       { k: "Indústria, mobilidade e agroalimentar", v: "Ascendi · Comissão de Viticultura da Região dos Vinhos Verdes · Continental Mabor · Critical Manufacturing · Critical TechWorks · Efacec" },

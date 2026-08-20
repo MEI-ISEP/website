@@ -91,7 +91,7 @@ window.MEI_EN = {
       eyebrow: "Collaboration",
       h2: "A final project developed with industry and with research",
       lead: "The final project is increasingly carried out inside companies and research laboratories, starting from a real problem, with external co-supervision, and leading to results of recognised application and impact.",
-      sectors: "Partner companies, by sector",
+      sectors: "Partner companies, by sector — non-exhaustive list",
       research: "Research",
       coopEyebrow: "For companies and institutions",
       coopH: "Would you like to partner with the MEI?",
@@ -945,7 +945,7 @@ window.MEI_EN = {
   ],
 
   partners: {
-    lead: "ISEP trains engineers in permanent contact with the people who build technology every day. Through the DEI Projects Portal, leading companies submit concrete challenges that give rise to dissertations, projects and internships. Recent collaborations include:",
+    lead: "ISEP's purpose is to train engineers in contact with the people who build technology every day. Through the Projects Portal, leading companies submit concrete challenges that give rise to dissertations, projects and internships. Recent collaborations include:",
     sectors: [
       { k: "Software and IT consulting", v: "Armis Group · Celfocus · Devscope · Evoleo Technologies · InfoPortugal · ITSector · Novabase · Sistrade · Wipro Portugal · Xarevision · XpandIT" },
       { k: "Industry, mobility and agrifood", v: "Ascendi · Comissão de Viticultura da Região dos Vinhos Verdes · Continental Mabor · Critical Manufacturing · Critical TechWorks · Efacec" },
