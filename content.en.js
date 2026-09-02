@@ -48,14 +48,14 @@ window.MEI_EN = {
       eyebrow: "Overview",
       h2: "Build what comes next.",
       lead: "Informatics Engineering is present in virtually every sector, at a time when data, automation and intelligent systems are transforming the way organizations operate. The Master in Informatics Engineering combines a common foundation in advanced engineering practice with five specialization branches and a strong practical component: Cybersecurity and Systems Administration, Data Engineering, Software Engineering, Games, Graphics and Interactive Systems, and Information and Knowledge Systems.",
-      p1: "<span class=\"lede\">A degree designed for the demands of professional life.</span> The MEI is intended for working professionals and for high-potential recent graduates who wish to deepen one of the most decisive areas of informatics engineering. It rests on a model of conceiving, designing, implementing and operating real systems, and it is one of the few master's programmes in Portugal with ABET accreditation.",
-      p2: "<span class=\"lede\">Artificial Intelligence (AI) as a tool, not as an end.</span> Solving real problems today almost always involves knowing how to apply AI. But AI on its own solves nothing: the challenge lies in integrating it judiciously into solutions with real impact. It is this combination of specialization, critical thinking and AI that makes the difference in a professional career.",
+      p1: "<span class=\"lede\">A degree designed for the demands of professional life.</span> The MEI is intended for working professionals and recent graduates who wish to deepen their knowledge in decisive areas of informatics engineering. It rests on a model of conceiving, designing, implementing and operating real systems, and it is one of the few master's programmes in Portugal with ABET accreditation.",
+      p2: "<span class=\"lede\">Artificial Intelligence (AI) as a tool, not as an end.</span> AI on its own solves nothing: the challenge lies in integrating it judiciously into solutions with real impact. It is this combination of specialization, critical thinking and AI that makes the difference in a professional career. The deeper the technical command, the greater the ability to put AI to work in solutions that genuinely matter.",
       glance: "At a glance"
     },
     spec: {
       eyebrow: "Specializations",
       h2: "Five specializations, one degree",
-      body: "The first year deepens the chosen area through eight course units spread over two semesters. The second year brings that knowledge together and culminates in the final project. The specializations are not sealed compartments: you may take course units from other areas, since real-world challenges rarely fit within a single discipline.",
+      body: "The first year deepens your knowledge in the chosen area through eight course units spread over two semesters. The second year brings that knowledge together and culminates in the final project. The specializations are not sealed compartments: you may take course units from other areas, since real-world challenges rarely fit within a single discipline.",
       metaUnits: "Units + Lab",
       metaEcts: "ECTS in year 1",
       sem1: "Semester 1",
@@ -163,9 +163,9 @@ window.MEI_EN = {
       eyebrow: "Companies, institutions and research centres",
       h1: "Partner with the MEI",
       formsEyebrow: "Ways to partner",
-      formsH2: "From Challenges to Talent",
+      formsH2: "From Challenge to Solution",
       proposalEyebrow: "Dissertation proposals",
-      proposalH2: "A real challenge, a concrete project",
+      proposalH2: "Work That Serves Real Challenges",
       processEyebrow: "From proposal to project",
       proposalNoteLabel: "Where to submit.",
       goodEyebrow: "What makes a good proposal",
@@ -389,12 +389,12 @@ window.MEI_EN = {
 
   cooperation: {
     intro: "The MEI aims to keep a close connection with those who work with technology every day. Companies, public institutions, startups and research centres can collaborate in different ways. From a guest lecture to a dissertation devoted to a real challenge. The principle is simple: to bring organizations closer to specialised engineers, bring real problems into the classroom, and turn knowledge into concrete results.",
-    formsLead: "The MEI offers flexible partnership opportunities for organizations looking to access talent, explore new ideas, and solve real-world challenges.",
+    formsLead: "The MEI offers flexible partnership opportunities for organizations looking to explore new ideas, solve real-world challenges, and access specialized expertise.",
     forms: [
       {
         "n": "01",
         "t": "Talent acquisition",
-        "d": "Build a direct relationship with MEI students and reach engineering talent before graduation. Companies can take part through technical talks, company visits, career sessions, internships, challenges and recruitment activities."
+        "d": "Build a direct relationship with MEI students and reach potential candidates before graduation. Companies can take part through technical talks, company visits, career sessions, internships, challenges and recruitment activities."
       },
       {
         "n": "02",
@@ -418,10 +418,10 @@ window.MEI_EN = {
       }
     ],
     formsNote: "<b>Other forms.</b> This list is not closed. Co-supervision of projects, participation in applied research projects, recruitment sessions, making datasets or infrastructure available for experimentation, supporting competition teams: if you have an idea that does not quite fit any of the five, talk to us.",
-    proposalLead: "A dissertation allows an organization to turn a challenge, problem or opportunity into a work proposal taken forward by a student and an academic supervisor. It is a way to bring talent closer, explore new ideas and produce concrete results, within a framework suited to the organization's nature and objectives.",
+    proposalLead: "A dissertation allows an organization to turn a challenge, problem or opportunity into a work proposal taken forward by a student and an academic supervisor. It is a way to bring academia closer to organizational reality, explore new ideas and produce concrete results, within a framework suited to the organization's nature and objectives.",
     processLead: "Proposals for dissertations, projects and internships are submitted and managed on the DEI Projects Portal. The process has the three phases set out below.",
     proposalSteps: [
-      { n: "01", t: "Submission and validation", d: "Organizations wishing to host students register on the platform and submit their proposal, selecting the academic year and the course unit \u201cMEI \u2014 Projeto Tese\u201d and filling in the title, problem and objectives. The proposal is validated on entry as to its quality, the suitability of the work and the conditions for carrying it out. Accepted proposals are published." },
+      { n: "01", t: "Submission and validation", d: "Organizations wishing to host students register on the platform and submit their proposal, selecting the academic year and the course unit \u201cMestrado em Engenharia Inform\u00e1tica (MEI) - Projeto Tese\u201d and filling in the title, problem and objectives. The proposal is validated on entry as to its quality, the suitability of the work and the conditions for carrying it out. Accepted proposals are published." },
       { n: "02", t: "Publication and assignment", d: "Published proposals are circulated among students, who apply to the ones they want. The platform shows the proposer the list of applicants; student and proposer should make direct contact to gauge the fit between candidate and project. The assignment closes only with the agreement of both sides: on the platform, the student accepts the project and the proposer accepts the student." },
       { n: "03", t: "Formalisation", d: "The student details the problem and the work plan and invites the supervision team, which must include an ISEP supervisor and may include a co-supervisor and a technical supervisor from the host organization. Once validated and approved, the work is formalised." }
     ],
@@ -452,7 +452,7 @@ window.MEI_EN = {
       { k: "Collaboration protocol", v: "When the work takes place in a business setting it is supported by a collaboration protocol between the host organization and ISEP, usually accompanied by a confidentiality agreement." },
       { k: "Confidentiality", v: "If the work involves sensitive information belonging to the organization, confidentiality may be requested for a maximum period of three years. The request is made when applying for the public defence and is validated and justified by the jury, being recorded in the minutes." },
       { k: "Internships", v: "The final project may take the form of a professional internship with a report. Even in that format it cannot consist of routine professional tasks: it must start from a concrete problem, with measurable objectives, show some degree of innovation and be grounded in the state of the art. The work may also take place at the company where the student already works, provided it is original and carried out specifically for this purpose." },
-      { k: "Calendar", v: "The exact dates are set at the start of each academic year. Indicatively, the work begins between 15 and 30 September and is concluded between 15 June and 31 October of the following year. Proposals must be approved in time for the application and formalisation stages, which as a rule points to mid-September. Faculty typically begin submitting topics in early July." },
+      { k: "Calendar", v: "The exact dates are set at the start of each academic year. Indicatively, the work begins by 31 October and is concluded between 15 June and 31 October of the following year (indicative dates). Proposals must be approved in time for the application and formalisation stages, which as a rule points to the end of September. Institutions and faculty typically begin submitting topics in early July." },
       { k: "Costs", v: "There is no charge to the proposing organization for submitting proposals, giving lectures or taking part in activities. Any grant, allowance or support paid to the student is the organization's own decision, not a condition of the partnership." }
     ],
     contactLead: "For dissertation, project or internship proposals, submit directly on the platform. For everything else, or if you would rather discuss an idea before formalising it, write to us.",

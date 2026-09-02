@@ -47,14 +47,14 @@ window.MEI_PT = {
       eyebrow: "Visão geral",
       h2: "Construa soluções para o futuro.",
       lead: "A Engenharia Informática está presente em praticamente todos os setores, num contexto em que dados, automação e sistemas inteligentes transformam a forma como as organizações operam. O Mestrado em Engenharia Informática combina uma base comum de prática avançada de engenharia com cinco ramos de especialização e uma forte componente prática: Cibersegurança e Administração de Sistemas, Engenharia de Dados, Engenharia de Software, Jogos, Sistemas Gráficos e Interativos, e Sistemas de Informação e Conhecimento.",
-      p1: "<span class=\"lede\">Uma formação concebida para a exigência da vida profissional.</span> O MEI destina-se a profissionais em atividade e a recém-licenciados de elevado potencial que pretendam aprofundar uma das áreas mais determinantes da engenharia informática. Assenta num modelo de conceber, desenhar, implementar e operar sistemas reais, e é um dos poucos mestrados em Portugal com acreditação ABET.",
-      p2: "<span class=\"lede\">A Inteligência Artificial (IA) como ferramenta, não como fim.</span> Hoje, resolver problemas reais passa quase sempre por saber aplicar IA. Mas a IA, por si só, não resolve problemas: o desafio está em integrá-la de forma criteriosa em soluções com impacto real. É esta combinação de especialização, pensamento crítico e IA que faz a diferença no percurso profissional.",
+      p1: "<span class=\"lede\">Uma formação concebida para a exigência da vida profissional.</span> O MEI destina-se a profissionais em atividade e a recém-licenciados que pretendam aprofundar conhecimentos em áreas determinantes da engenharia informática. Assenta num modelo de conceber, desenhar, implementar e operar sistemas reais, e é um dos poucos mestrados em Portugal com acreditação ABET.",
+      p2: "<span class=\"lede\">A Inteligência Artificial (IA) como ferramenta, não como fim.</span> A IA, por si só, não resolve problemas: o desafio está em integrá-la de forma criteriosa em soluções com impacto real. É esta combinação de especialização, pensamento crítico e IA que faz a diferença no percurso profissional. Quanto mais profundo for o domínio técnico, maior a capacidade de empregar IA em soluções que realmente importam.",
       glance: "O essencial"
     },
     spec: {
       eyebrow: "Especializações",
       h2: "Cinco especializações, um só grau",
-      body: "O 1.º ano assegura o aprofundamento da área escolhida, através de oito unidades curriculares distribuídas por dois semestres. O 2.º ano promove a integração de conhecimentos e culmina no trabalho final. As especializações não são compartimentos estanques: é possível frequentar unidades curriculares de outras áreas, uma vez que os desafios reais raramente cabem numa só disciplina.",
+      body: "O 1.º ano aprofunda conhecimentos na área escolhida, através de oito unidades curriculares distribuídas por dois semestres. O 2.º ano promove a integração de conhecimentos e culmina no trabalho final. As especializações não são compartimentos estanques: é possível frequentar unidades curriculares de outras áreas, uma vez que os desafios reais raramente cabem numa só disciplina.",
       metaUnits: "Unidades + Lab",
       metaEcts: "ECTS no 1.º ano",
       sem1: "Semestre 1",
@@ -162,9 +162,9 @@ window.MEI_PT = {
       eyebrow: "Empresas, instituições e centros de investigação",
       h1: "Cooperar com o MEI",
       formsEyebrow: "Formas de parceria",
-      formsH2: "De Desafios a Talento",
+      formsH2: "Do Desafio à Solução",
       proposalEyebrow: "Propostas de dissertação",
-      proposalH2: "Um desafio real, um projeto concreto",
+      proposalH2: "Trabalhos ao Serviço de Desafios Reais",
       processEyebrow: "Da proposta ao trabalho",
       proposalNoteLabel: "Onde submeter.",
       goodEyebrow: "O que faz uma boa proposta",
@@ -387,12 +387,12 @@ window.MEI_PT = {
 
   cooperation: {
     intro: "O MEI tem como objetivo manter uma ligação próxima com quem trabalha com tecnologia todos os dias. Empresas, instituições públicas, startups e centros de investigação podem colaborar de diferentes formas. Desde uma palestra até uma dissertação dedicada a um desafio real. Queremos aproximar organizações de engenheiros especializados, trazer problemas reais para a sala de aula e transformar conhecimento em resultados concretos.",
-    formsLead: "O MEI oferece oportunidades de parceria flexíveis a organizações que procuram aceder a talento, explorar novas ideias e resolver desafios reais.",
+    formsLead: "O MEI oferece oportunidades de parceria flexíveis a organizações que procuram explorar novas ideias, resolver desafios reais e aceder a competências especializadas.",
     forms: [
       {
         "n": "01",
         "t": "Captação de recursos humanos",
-        "d": "Estabeleça uma relação direta com os estudantes do MEI e aceda ao talento em engenharia antes da conclusão do curso. As empresas podem participar por meio de palestras técnicas, visitas à empresa, sessões de carreira, estágios, desafios e atividades de recrutamento."
+        "d": "Estabeleça uma relação direta com os estudantes do MEI e aceda a potenciais candidatos antes da conclusão do curso. As empresas podem participar por meio de palestras técnicas, visitas à empresa, sessões de carreira, estágios, desafios e atividades de recrutamento."
       },
       {
         "n": "02",
@@ -416,10 +416,10 @@ window.MEI_PT = {
       }
     ],
     formsNote: "<b>Outras formas.</b> Esta lista não é fechada. Coorientação de trabalhos, participação em projetos de investigação aplicada, sessões de recrutamento, disponibilização de conjuntos de dados ou de infraestrutura para experimentação, apoio a equipas de competição: se tem uma ideia que não cabe exatamente em nenhuma das cinco, fale connosco.",
-    proposalLead: "A dissertação permite a uma organização transformar um desafio, problema ou oportunidade numa proposta de trabalho acompanhada por um estudante e por um orientador académico. É uma forma de aproximar talento, explorar novas ideias e produzir resultados concretos, com um enquadramento adequado à natureza e aos objetivos da organização.",
+    proposalLead: "A dissertação permite a uma organização transformar um desafio, problema ou oportunidade numa proposta de trabalho acompanhada por um estudante e por um orientador académico. É uma forma de aproximar a academia da realidade organizacional, explorar novas ideias e produzir resultados concretos, com um enquadramento adequado à natureza e aos objetivos da organização.",
     processLead: "As propostas de dissertação, projeto ou estágio são submetidas e geridas no Portal de Projetos do DEI. O processo tem três fases indicadas abaixo.",
     proposalSteps: [
-      { n: "01", t: "Submissão e validação", d: "As entidades que pretendam acolher estudantes registam-se na plataforma e submetem a proposta, selecionando o ano letivo e a unidade curricular «MEI — Projeto Tese» e preenchendo título, problema e objetivos. A proposta é validada à entrada quanto à qualidade, à adequação do trabalho e às condições para o seu desenvolvimento. As propostas aceites são publicadas." },
+      { n: "01", t: "Submissão e validação", d: "As entidades que pretendam acolher estudantes registam-se na plataforma e submetem a proposta, selecionando o ano letivo e a unidade curricular «Mestrado em Engenharia Informática (MEI) - Projeto Tese» e preenchendo título, problema e objetivos. A proposta é validada à entrada quanto à qualidade, à adequação do trabalho e às condições para o seu desenvolvimento. As propostas aceites são publicadas." },
       { n: "02", t: "Divulgação e atribuição", d: "As propostas publicadas são divulgadas aos estudantes, que se candidatam às que pretendem. A plataforma mostra ao proponente a lista de candidatos; estudante e proponente devem estabelecer contacto direto para aferir a adequação entre candidato e projeto. A atribuição só fica fechada com o acordo de ambas as partes: na plataforma, o estudante aceita o projeto e o proponente aceita o estudante." },
       { n: "03", t: "Formalização", d: "O estudante detalha o problema e o plano de trabalho e convida a equipa de orientação, que inclui obrigatoriamente um orientador do ISEP e pode incluir um coorientador e um supervisor técnico da entidade de acolhimento. Após validação e aprovação, o trabalho fica formalizado." }
     ],
@@ -450,7 +450,7 @@ window.MEI_PT = {
       { k: "Protocolo de colaboração", v: "Quando o trabalho decorre em contexto empresarial é suportado por um protocolo de colaboração entre a entidade de acolhimento e o ISEP, habitualmente acompanhado de um acordo de confidencialidade." },
       { k: "Confidencialidade", v: "Se o trabalho envolver informação sensível da organização, pode ser pedida confidencialidade por um período máximo de três anos. O pedido é feito no ato de requisição de provas e é validado e justificado pelo júri, ficando registado em ata." },
       { k: "Estágios", v: "O trabalho final pode assumir a forma de estágio de natureza profissional com relatório. Mesmo nesse formato não pode consistir em tarefas profissionais de rotina: tem de partir de um problema concreto, com objetivos mensuráveis, apresentar algum grau de inovação e estar enquadrado no estado da arte. É também possível o trabalho decorrer na empresa onde o estudante já trabalha, desde que original e especialmente realizado para este fim." },
-      { k: "Calendário", v: "As datas concretas são definidas no início de cada ano letivo. A título indicativo, o trabalho tem início entre 15 e 30 de setembro e conclui-se entre 15 de junho e 31 de outubro do ano seguinte. As propostas devem estar aprovadas a tempo da candidatura e da formalização, o que, em regra, aponta para meados de setembro. Os docentes começam tipicamente a submeter temas no início de julho." },
+      { k: "Calendário", v: "As datas concretas são definidas no início de cada ano letivo. A título indicativo, o trabalho tem início até 31 de outubro e conclui-se entre 15 de junho e 31 de outubro do ano seguinte (datas indicativas). As propostas devem estar aprovadas a tempo da candidatura e da formalização, o que, em regra, aponta para final de setembro. As instituições e docentes começam tipicamente a submeter temas no início de julho." },
       { k: "Custos", v: "Não há qualquer encargo para a entidade proponente pela submissão de propostas, pela realização de palestras ou pela participação em atividades. Eventuais bolsas, subsídios ou apoios ao estudante são uma decisão da organização, e não uma condição da parceria." }
     ],
     contactLead: "Para propostas de dissertação, projeto ou estágio, submeta diretamente na plataforma. Para tudo o resto, ou se preferir discutir uma ideia antes de a formalizar, escreva-nos.",
