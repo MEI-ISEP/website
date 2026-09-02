@@ -478,12 +478,12 @@ window.MEI_EN = {
         {
           "id": "quem-se-pode-candidatar",
           "q": "Who may apply?",
-          "a": "<p>Applications are open to: holders of a bachelor's degree or equivalent; holders of a foreign higher-education degree obtained in a first cycle organised under Bologna; holders of a foreign higher-education degree recognised by the Technical-Scientific Council of ISEP as meeting the objectives of a bachelor's degree; holders of an academic, scientific or professional record recognised by the CTC as attesting capacity to undertake the programme; and final-year bachelor's students, under conditional admission. The recognitions referred to serve only for access to the master's and do not confer equivalence to a Portuguese bachelor's degree.</p>"
+          "a": "<p>Applications are open to: holders of a bachelor's degree or equivalent; holders of a foreign higher-education degree obtained in a first cycle organised under Bologna, in a State party to the process; holders of a foreign higher-education degree recognised by the Technical-Scientific Council (CTC) of ISEP as meeting the objectives of a bachelor's degree; holders of an academic, scientific or professional record recognised by the CTC of ISEP as attesting capacity to undertake the programme; and final-year bachelor's students, under conditional admission. The recognitions referred to serve only for access to the master's and do not confer equivalence to a Portuguese bachelor's degree.</p>"
         },
         {
           "id": "sou-finalista-de-licenciatura-posso-candidatar-m",
           "q": "I am in my final bachelor's year. May I apply?",
-          "a": "<p>Yes, in any of the three rounds, under conditional admission, presenting evidence of the course units already completed together with the average to date. Proof of completion of the bachelor's may be presented up to the last day of the enrolment deadline for the round applied to; without that proof the application is excluded, and you may compete in the following round.</p>"
+          "a": "<p>Yes, in any of the three rounds, under conditional admission, presenting evidence of the course units already completed together with the average to date. Proof of completion of the bachelor's may be presented up to the last day of the enrolment deadline for the round applied to; without that proof you lose your right to the place and the application is excluded, and you may compete in the following round.</p>"
         },
         {
           "id": "quantas-fases-de-candidatura-existem",
@@ -493,7 +493,7 @@ window.MEI_EN = {
         {
           "id": "onde-apresento-a-candidatura",
           "q": "Where do I submit the application?",
-          "a": "<p>At <a href='https://www.isep.ipp.pt/mestrados' target='_blank' rel='noopener'>www.isep.ipp.pt/mestrados</a>. On the programme page, open the \"A tua candidatura\" tab, select \"Candidaturas\" and, if you do not yet have an access key, request one under the corresponding option.</p>"
+          "a": "<p>At <a href='https://www.isep.ipp.pt/mestrados' target='_blank' rel='noopener'>www.isep.ipp.pt/mestrados</a>. On the programme page, open the side tab \"A tua candidatura\", select \"Candidaturas\" and, if you do not yet have an access key, click \"Obter chave de acesso\".</p>"
         },
         {
           "id": "qual-e-o-valor-das-propinas",
@@ -508,37 +508,37 @@ window.MEI_EN = {
         {
           "id": "como-sao-seriados-os-candidatos",
           "q": "How are candidates ranked?",
-          "a": "<p>By order of priority within the preferred specialization (graduates in the field, finalists in the field, graduates in related fields, finalists in related fields, others) and, within each priority, by a final classification weighting the bachelor's grade (60%) and the curricular classification (40%), the latter made up of duly evidenced academic, professional and scientific activity.</p>"
+          "a": "<p>First by priority, within the specialization area given as first preference: graduates in the field of the programme; final-year bachelor's students in the field of the programme; graduates in related fields; final-year bachelor's students in related fields; others.</p><p>Within each priority the formula <b>CF = 0.6 &times; CL + 0.4 &times; CC</b> applies, where <b>CC = 0.3 &times; AA + 0.4 &times; AP + 0.3 &times; AC</b>. CL is the bachelor's grade (for final-year students, the average of the course units passed at the date of application). CC is the curricular classification, made up of academic activity (AA, other training), professional activity (AP, experience relevant to the field) and scientific activity (AC, relevant research and development). The final classification is expressed from 0 to 20, rounded to one decimal place; only duly evidenced references are considered.</p>"
         },
         {
           "id": "pode-haver-entrevista-ou-pre-requisitos",
           "q": "May there be an interview or prerequisites?",
-          "a": "<p>Yes, if the panel so decides. There may be interviews on motivation and availability, passing certain course units may be required as a prerequisite for enrolment, and applications from holders of qualifications in a different scientific field may be excluded.</p>"
+          "a": "<p>Yes, if the panel so decides. There may be interviews, to assess motivation, languages and availability, attending and passing certain course units may be required as a prerequisite for enrolment, and applications from holders of qualifications in a different scientific field may be excluded.</p>"
         },
         {
           "id": "em-que-casos-a-candidatura-e-indeferida",
-          "q": "In which cases is an application rejected or excluded?",
+          "q": "In which cases is an application summarily rejected or excluded?",
           "a": "<p>It is summarily rejected when submitted outside the terms and deadlines of the official call, for non-payment of the fee, or where tuition fees are in arrears. It is excluded for missing mandatory documents, false declarations, failure to meet the access conditions, or a lapsed higher-education registration.</p>"
         },
         {
           "id": "onde-vejo-os-resultados-e-como-reclamo",
           "q": "Where do I see the results and how do I appeal?",
-          "a": "<p>Results are published by official notice at <a href='https://portal.isep.ipp.pt' target='_blank' rel='noopener'>portal.isep.ipp.pt</a>. Decisions of the panel are not open to appeal, save on procedural grounds, addressed to the President of the School through <a href='https://www.isep.ipp.pt/mestrados' target='_blank' rel='noopener'>www.isep.ipp.pt/mestrados</a>, within the applicable deadlines and subject to a fee, refundable if the appeal is upheld.</p>"
+          "a": "<p>Results are published by official notice at <a href='https://portal.isep.ipp.pt' target='_blank' rel='noopener'>portal.isep.ipp.pt</a>, with guest access, under Inscrições &rsaquo; Candidaturas &rsaquo; Candidaturas. Decisions of the panel are not open to appeal, save where challenged on procedural grounds, in which case the appeal is addressed to the President of the School. It is submitted at <a href='https://www.isep.ipp.pt/mestrados' target='_blank' rel='noopener'>www.isep.ipp.pt/mestrados</a>, under the \"Efetuar reclamação\" option, within the deadlines in Annex II of the official call, and requires payment of a fee, returned if the appeal is upheld.</p>"
         },
         {
           "id": "fiquei-em-lista-de-espera-o-que",
           "q": "I am on the waiting list. What happens if someone withdraws?",
-          "a": "<p>The Academic Division contacts unplaced candidates electronically, in descending order of classification. Those contacted have four working days from notification to register and enrol.</p>"
+          "a": "<p>The Academic Division contacts unplaced candidates electronically, in descending order of classification, until places or candidates are exhausted. Those contacted have four working days from receipt of the notification to register and enrol.</p>"
         },
         {
           "id": "posso-candidatar-me-fora-de-prazo",
           "q": "May I apply after the deadline?",
-          "a": "<p>Once all rounds are concluded, late applications may be accepted upon reasoned request to the Academic Division, subject to the application fee plus a fee for an administrative act performed out of time.</p>"
+          "a": "<p>Once all rounds are concluded, late applications may be accepted upon reasoned request to the Academic Division, provided conditions for integration exist. They are subject to the application fee plus a fee for an administrative act performed out of time.</p>"
         },
         {
           "id": "preciso-de-reconhecer-a-minha-licenciatura-estra",
           "q": "Do I need to have my foreign bachelor's recognised?",
-          "a": "<p>If the degree followed a first cycle under Bologna, no. Otherwise, recognition must be requested from the Technical-Scientific Council of ISEP or from the DGES, with identification documents, an authenticated diploma, an academic transcript and syllabus contents, accepted in Portuguese, English, French or Spanish.</p>"
+          "a": "<p>If the degree followed a first cycle under Bologna, no. Otherwise, recognition must be requested from the Technical-Scientific Council of ISEP, asking <a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a> for the form, or from the DGES. The documents required are identification, an authenticated diploma or equivalent certificate, an academic transcript with grades, and syllabus contents with duration and contact hours. These are accepted in Portuguese, English, French or Spanish; in other languages they must be translated into Portuguese. If you already hold a recognition issued by a Portuguese institution, simply attach it.</p>"
         }
       ]
     },
@@ -589,6 +589,11 @@ window.MEI_EN = {
           "id": "posso-mudar-de-area-de-especializacao",
           "q": "May I change specialization area?",
           "a": "<p>Only from the academic year following your first enrolment, upon request addressed to the Presidency of ISEP (article 13 of the General Regulation for Master's Programmes).</p>"
+        },
+        {
+          "id": "tenho-uma-duvida-relacionada-com-o-mei",
+          "q": "I have a question about the MEI. Who do I ask?",
+          "a": "<p>Send an e-mail to <a href='mailto:mei@isep.ipp.pt'>mei@isep.ipp.pt</a>. Questions that should be addressed to the academic services, or to another of the contacts listed above, may go unanswered. At busier times, the reply may not be immediate.</p>"
         }
       ]
     },
@@ -774,7 +779,7 @@ window.MEI_EN = {
         {
           "id": "como-se-organiza-a-execucao-ao-longo",
           "q": "How is the work organised across the year?",
-          "a": "<p>The work is developed, in an academic or business setting, by students who meet the conditions to enrol in the second year of the MEI, that is, first-year students who have completed 35.5 ECTS or more. It is divided across two semesters:</p><ul><li><b>PREPD (first semester).</b> Theoretical preparation of the work, with analysis of the problem and of the state of the art. It is carried out part-time, normally alongside other course units, and usually on ISEP premises. No substantial presence at the host organization is expected, but periodic meetings between student, supervisor and company should take place.</li><li><b>DIMEI (second semester).</b> The dissertation work itself, producing the contributions, full-time, with no other course units or tasks in parallel. When the work takes place in a business setting, it is expected to be carried out largely on the company's premises.</li></ul>"
+          "a": "<p>The work is developed, in an academic or business setting, by students who meet the conditions to enrol in the second year of the MEI, that is, first-year students who have completed 35.5 ECTS or more. It is divided across two semesters:</p><ul><li><b>PREPD (first semester).</b> Theoretical preparation of the work, with analysis of the problem and of the state of the art, in the \"Preparação da Dissertação\" course unit. It is carried out part-time, normally alongside other course units, and usually on ISEP premises. No substantial presence at the host organization is expected, but periodic meetings between student, supervisor and company should take place.</li><li><b>DIMEI (second semester).</b> The dissertation work itself, producing the contributions, full-time, with no other course units or tasks in parallel. When the work takes place in a business setting, it is expected to be carried out largely on the company's premises.</li></ul>"
         },
         {
           "id": "como-decorre-o-processo-da-proposta-a",
@@ -799,7 +804,7 @@ window.MEI_EN = {
         {
           "id": "qual-e-o-calendario-tipico",
           "q": "What is the typical calendar?",
-          "a": "<p>The exact dates are set at the start of each academic year. Indicatively, the work begins between 15 and 30 September and is concluded between 15 June and 31 October of the following year. Proposals must be approved in time for the application and formalisation stages, which as a rule points to mid-September.</p>"
+          "a": "<p>The exact dates are set at the start of each academic year. Indicatively, the work begins by 31 October and is concluded between 15 June and 31 October of the following year (indicative dates). Proposals must be approved in time for the application and formalisation stages, which as a rule points to the end of September.</p>"
         },
         {
           "id": "e-preciso-ter-orientador-do-isep-logo",
@@ -809,7 +814,7 @@ window.MEI_EN = {
         {
           "id": "posso-propor-o-meu-proprio-tema",
           "q": "May I propose my own topic?",
-          "a": "<p>Yes. Besides proposals from companies, institutions and faculty, you may propose your own topic. To do so, you need to find an ISEP faculty member willing to supervise you and submit the proposal on the platform, through that faculty member, where it goes through the approval process.</p>"
+          "a": "<p>Yes. Besides proposals from companies, institutions and faculty, you may propose your own topic. The proposal must meet the usual conditions: a concrete problem, an Informatics Engineering component and a work plan. You need to find an ISEP faculty member willing to supervise you and submit the proposal on the platform, through that faculty member, where it goes through the approval process.</p>"
         },
         {
           "id": "que-formatos-pode-assumir-o-trabalho-final",
@@ -819,7 +824,7 @@ window.MEI_EN = {
         {
           "id": "posso-realizar-o-trabalho-final-na-empresa",
           "q": "May I carry out the final project at the company where I work?",
-          "a": "<p>Yes. The final project may take the form of an applied project or a professional internship in a business setting, supported by a collaboration protocol between the host organization and ISEP. The proposal must meet the usual conditions, be submitted and approved, and have an academic supervisor from ISEP.</p><p>If the work involves sensitive company information, confidentiality may be requested for up to three years. The work must nonetheless be original and carried out specifically for this purpose.</p>"
+          "a": "<p>Yes. The final project may take the form of an applied project or a professional internship in a business setting, supported by a collaboration protocol between the host organization and ISEP. The proposal must meet the usual conditions (a concrete problem, an Informatics Engineering component, a work plan, and clear hosting and supervision arrangements), be submitted by the company and approved, and have an academic supervisor from ISEP.</p><p>If the work involves sensitive company information, confidentiality may be requested for up to three years. The work must nonetheless be original and carried out specifically for this purpose.</p>"
         },
         {
           "id": "vou-fazer-estagio-no-ambito-do-dimei",
@@ -899,14 +904,16 @@ window.MEI_EN = {
     { "topic": "Questions about the programme, PEI, topics", "email": "mei@isep.ipp.pt" },
     { "topic": "Registration, enrolment, tuition, enrolment regime", "email": "info-sa@isep.ipp.pt" },
     { "topic": "Classes and timetables (MEI units)", "email": "turmasmesdei@isep.ipp.pt" },
-    { "topic": "Classes and timetables (LEI)", "email": "turmaslicdei@isep.ipp.pt" }
+    { "topic": "Classes and timetables (LEI)", "email": "turmaslicdei@isep.ipp.pt" },
+    { "topic": "Internship protocols (DEI Office)", "email": "mlsb@isep.ipp.pt" }
   ],
 
   /* Sites and platforms, kept apart from the e-mail contacts above. */
   faqLinks: [
     { "topic": "Applications and appeals", "label": "www.isep.ipp.pt/mestrados", "href": "https://www.isep.ipp.pt/mestrados" },
     { "topic": "Competition results", "label": "portal.isep.ipp.pt", "href": "https://portal.isep.ipp.pt" },
-    { "topic": "Dissertation, project and internship proposals", "label": "projetos.dei.isep.ipp.pt", "href": "https://projetos.dei.isep.ipp.pt/home" }
+    { "topic": "Dissertation, project and internship proposals", "label": "projetos.dei.isep.ipp.pt", "href": "https://projetos.dei.isep.ipp.pt/home" },
+    { "topic": "Academic Division (Master's)", "label": "Academic Services", "href": "https://www.isep.ipp.pt/Page/ViewPage/divisao_academica_mest" }
   ],
 
   faqSources: [
@@ -916,7 +923,7 @@ window.MEI_EN = {
     "Order no. 11560/2022, study plan of the Master in Informatics Engineering (Diário da República, 2nd series, no. 189, 29 Sep 2022)",
     "Order IPP/P-098/2008, Master's programmes, calculation of the final average",
     "P.PORTO Regulation on Recognition and Crediting/Certification of Competencies (Diário da República, 2nd series, 2019)",
-    "ISEP Academic Division, \"Access to Master's Programmes\" page (<a href='https://www.isep.ipp.pt/Page/ViewPage/divisao_academica_mest' target='_blank' rel='noopener'>isep.ipp.pt</a>)"
+    "ISEP Academic Division, \"Access to Master's Programmes\" page (<a href='https://www.isep.ipp.pt/Page/ViewPage/divisao_academica_mest' target='_blank' rel='noopener'>isep.ipp.pt</a>), updated 02/06/2026"
   ],
 
   contacts: {

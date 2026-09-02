@@ -552,3 +552,178 @@ a { color: inherit; text-decoration: none; }
   .step-row { gap: 16px; padding: 20px; }
   .step-row__no { font-size: 22px; flex: 0 0 40px; }
 }
+
+/* ============================================================
+   LIGHT VARIANT — the site default
+   ============================================================
+   Merged in from the former site-light.css. Same design system
+   tokens, same structure; what changes is the value distribution:
+   the dark stage cuts become paper and warm soft, ink carries the
+   contrast, and ISEP red does more of the signalling. Display
+   weights drop one step so the page reads calmer.
+
+   Scoped on :root rather than a body class so it applies with no
+   opt-in, while keeping the exact specificity (0,1,0 prefix) the
+   variant was authored with — every rule below still lands as a
+   deliberate override of the block above it, not a coincidence of
+   source order. To restore the dark cut, delete this section.
+
+   Deliberately NOT converted: .closing, .footer and .subhero stay
+   dark, anchoring the page bottom and the subpage headers.
+   ============================================================ */
+
+/* ---- Type: one step lighter, slightly looser tracking ---- */
+:root .h-xl { font-weight: 800; letter-spacing: -.02em; }
+:root .h-lg { font-weight: 700; letter-spacing: -.015em; }
+:root .h-md { font-weight: 700; }
+:root .lead { font-weight: 450; color: var(--ink-700); }
+:root .body { color: var(--ink-700); }
+
+/* ============================================================
+   NAV — solid and light from the top (no dark hero beneath)
+   ============================================================ */
+:root .nav,
+:root .nav.scrolled {
+  background: rgba(255,255,255,.88);
+  backdrop-filter: saturate(1.4) blur(14px);
+  -webkit-backdrop-filter: saturate(1.4) blur(14px);
+  border-bottom-color: var(--line);
+}
+:root .nav .brand__isep { color: var(--ink-900); }
+:root .nav .brand__sub { color: var(--ink-700); }
+:root .nav .nav__link { color: var(--ink-700); }
+:root .nav .nav__link:hover { color: var(--ink-900); }
+:root .nav .nav__link.active { color: var(--mei-red); }
+:root .nav .nav__burger span { background: var(--ink-900); }
+/* The bar is light in BOTH states now, so the language switch needs its
+   .scrolled treatment from the top — its unscrolled skin is white-on-white. */
+:root .nav .langsw { background: var(--line); border-color: var(--line); }
+:root .nav .langsw__b { color: var(--ink-500); }
+:root .nav .langsw__b:hover { color: var(--ink-900); }
+:root .nav .langsw__b.active { background: var(--mei-red); color: #fff; }
+
+/* ============================================================
+   HERO — paper instead of near-black
+   ============================================================ */
+:root .hero {
+  background: var(--soft-warm);
+  color: var(--ink-900);
+  min-height: auto;
+  padding-top: calc(var(--nav-h) + clamp(56px, 8vw, 104px));
+  padding-bottom: clamp(56px, 8vw, 96px);
+  align-items: flex-start;
+}
+:root .hero__hatch {
+  background: radial-gradient(120% 90% at 82% 0%, rgba(179,35,23,.07), transparent 58%);
+  opacity: 1;
+}
+:root .hero__hatch::after { display: none; }
+:root .hero__kicker { color: var(--ink-700); }
+:root .hero__kicker b { color: var(--mei-red); }
+:root .hero__mei { font-weight: 800; letter-spacing: -.045em; font-size: clamp(112px, 22vw, 300px); }
+:root .hero__title { font-weight: 700; color: var(--ink-900); }
+:root .hero__intro { color: var(--ink-700); }
+:root .hero__stats {
+  border-color: var(--line);
+  background: var(--line);
+}
+:root .hero__stat { background: var(--paper); }
+:root .hero__stat .n { color: var(--ink-900); }
+:root .hero__stat .l { color: var(--ink-700); }
+:root .hero .btn--ghost-light { color: var(--ink-900); border-color: var(--line); }
+:root .hero .btn--ghost-light:hover { border-color: var(--ink-900); background: rgba(0,0,0,.03); }
+:root .scrollcue { display: none; }
+
+/* ============================================================
+   SUBPAGE HEADER — same conversion as the hero, so Candidatura,
+   Cooperação and FAQ open on paper like the homepage does.
+   The hairline is load-bearing: Cooperação's first section is
+   itself --soft-warm, so without it the header and that section
+   would run together as one undivided block.
+   ============================================================ */
+:root .subhero {
+  background: var(--soft-warm);
+  color: var(--ink-900);
+  border-bottom: 1px solid var(--line);
+}
+:root .subhero__hatch {
+  background: radial-gradient(120% 90% at 82% 0%, rgba(179,35,23,.07), transparent 58%);
+}
+:root .subhero .eyebrow { color: var(--mei-red); }
+:root .subhero .eyebrow::before { background: var(--mei-red); }
+:root .subhero h1 { font-weight: 800; letter-spacing: -.02em; color: var(--ink-900); }
+:root .subhero p { color: var(--ink-700); }
+:root .crumb { color: var(--ink-500); }
+:root .crumb a { color: var(--ink-700); }
+:root .crumb a:hover { color: var(--ink-900); }
+
+/* ============================================================
+   STRUCTURE — the accent cell becomes a red-marked paper cell
+   ============================================================ */
+:root .arc__cell.accent { background: var(--paper); box-shadow: inset 0 3px 0 var(--mei-red); }
+:root .arc__cell.accent .arc__sem { color: var(--ink-700); }
+:root .arc__cell.accent .arc__big { color: var(--mei-red); }
+:root .arc__cell.accent .arc__sub { color: var(--ink-700); }
+
+/* ============================================================
+   ACCREDITATIONS — light section, hairline cards
+   Dormant: the site dropped the accreditations section (see the
+   note in render.js) and site.css has no base .accred rules, so
+   nothing below matches today. Kept for when the section returns.
+   ============================================================ */
+:root .accred { background: var(--soft); color: var(--ink-700); }
+:root .accred .lead { color: var(--ink-700); }
+:root .accred .eyebrow { color: var(--mei-red); }
+:root .accred .eyebrow::before { background: var(--mei-red); }
+:root .accred__grid { background: var(--line); border-color: var(--line); }
+:root .accred__card { background: var(--paper); }
+:root .accred__abbr { color: var(--ink-900); }
+:root .accred__region { color: var(--mei-red); }
+:root .accred__name { color: var(--ink-900); }
+:root .accred__desc { color: var(--ink-700); }
+:root .adv { background: var(--line); border-color: var(--line); }
+:root .adv__card { background: var(--paper); }
+:root .adv__t { color: var(--ink-900); }
+:root .adv__d { color: var(--ink-700); }
+
+/* ============================================================
+   PARTNERS — repo block goes light with a red numeral
+   ============================================================ */
+:root .partners { background: var(--paper); }
+:root .repo { background: var(--soft-warm); color: var(--ink-700); border: 1px solid var(--line); }
+:root .repo__l { color: var(--ink-700); }
+:root .repo__url { color: var(--ink-700); }
+
+/* ============================================================
+   CLOSING / CONTACTS — stays dark in the light variant,
+   pairing with the footer to anchor the page bottom.
+   The light page strips the inline white on section headings,
+   so restore it for the dark closing block.
+   ============================================================ */
+:root .closing .h-lg { color: #fff; }
+
+:root .glance__k { color: var(--ink-700); }
+:root .glance__cell { background: var(--paper); }
+:root .pillar__d { color: var(--ink-700); }
+:root .spec__blurb { color: var(--ink-700); }
+:root .course__desc { color: var(--ink-700); }
+:root .common__desc { color: var(--ink-700); }
+:root .proj__m { color: var(--ink-700); }
+:root .spec__extra { color: var(--ink-700); }
+:root .spec__metaitem .l { color: var(--ink-700); }
+:root .subsem { color: var(--ink-900); }
+:root .course__ects .u,
+:root .common__ects .u { color: var(--ink-700); }
+:root .chip { color: var(--ink-900); }
+:root .careers__note { color: var(--ink-700); }
+:root .partner__kind { color: var(--ink-700); }
+:root .callout { color: var(--ink-700); }
+:root .arc__sem { color: var(--ink-700); }
+:root .arc__sub { color: var(--ink-700); }
+:root .arc__step { color: var(--ink-500); }
+:root .eyebrow.muted { color: var(--ink-700); }
+
+/* ============================================================
+   FOOTER — stays dark in the light variant, as an anchor.
+   ============================================================ */
+:root .footer { background: var(--stage-black); border-top: 1px solid rgba(255,255,255,.1); color: rgba(255,255,255,.6); }

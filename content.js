@@ -476,12 +476,12 @@ window.MEI_PT = {
         {
           "id": "quem-se-pode-candidatar",
           "q": "Quem se pode candidatar?",
-          "a": "<p>Podem candidatar-se: titulares de licenciatura ou grau equivalente; titulares de grau superior estrangeiro obtido num 1.º ciclo organizado segundo Bolonha; titulares de grau superior estrangeiro reconhecido pelo Conselho Técnico-Científico do ISEP como satisfazendo os objetivos do grau de licenciado; detentores de currículo escolar, científico ou profissional reconhecido pelo CTC como atestando capacidade para frequentar o ciclo de estudos; e estudantes finalistas de licenciatura, em admissão condicional. Os reconhecimentos referidos servem apenas para acesso ao mestrado e não conferem equivalência ao grau de licenciado em Portugal.</p>"
+          "a": "<p>Podem candidatar-se: titulares de licenciatura ou grau equivalente; titulares de grau superior estrangeiro obtido num 1.º ciclo organizado segundo Bolonha, num Estado aderente ao processo; titulares de grau superior estrangeiro reconhecido pelo Conselho Técnico-Científico (CTC) do ISEP como satisfazendo os objetivos do grau de licenciado; detentores de currículo escolar, científico ou profissional reconhecido pelo CTC do ISEP como atestando capacidade para frequentar o ciclo de estudos; e estudantes finalistas de licenciatura, em admissão condicional. Os reconhecimentos referidos servem apenas para acesso ao mestrado e não conferem equivalência ao grau de licenciado em Portugal.</p>"
         },
         {
           "id": "sou-finalista-de-licenciatura-posso-candidatar-m",
           "q": "Sou finalista de licenciatura. Posso candidatar-me?",
-          "a": "<p>Sim, em qualquer das três fases, em admissão condicional, devendo apresentar comprovativo das unidades curriculares já concluídas com a média até ao momento. A prova de conclusão da licenciatura pode ser apresentada até ao último dia do prazo de inscrição da fase a que se candidatou; sem essa prova, a candidatura é excluída, podendo concorrer na fase seguinte.</p>"
+          "a": "<p>Sim, em qualquer das três fases, em admissão condicional, devendo apresentar comprovativo das unidades curriculares já concluídas com a média até ao momento. A prova de conclusão da licenciatura pode ser apresentada até ao último dia do prazo de inscrição da fase a que se candidatou; sem essa prova, perde o direito à vaga e a candidatura é excluída, podendo concorrer na fase seguinte.</p>"
         },
         {
           "id": "quantas-fases-de-candidatura-existem",
@@ -491,7 +491,7 @@ window.MEI_PT = {
         {
           "id": "onde-apresento-a-candidatura",
           "q": "Onde apresento a candidatura?",
-          "a": "<p>Em <a href='https://www.isep.ipp.pt/mestrados' target='_blank' rel='noopener'>www.isep.ipp.pt/mestrados</a>. Na página do curso, aceda ao separador \"A tua candidatura\", selecione \"Candidaturas\" e, caso ainda não tenha chave de acesso, solicite-a na opção correspondente.</p>"
+          "a": "<p>Em <a href='https://www.isep.ipp.pt/mestrados' target='_blank' rel='noopener'>www.isep.ipp.pt/mestrados</a>. Na página do curso, abra o separador lateral \"A tua candidatura\", selecione \"Candidaturas\" e, caso ainda não tenha chave de acesso, clique em \"Obter chave de acesso\".</p>"
         },
         {
           "id": "qual-e-o-valor-das-propinas",
@@ -506,37 +506,37 @@ window.MEI_PT = {
         {
           "id": "como-sao-seriados-os-candidatos",
           "q": "Como são seriados os candidatos?",
-          "a": "<p>Por ordem de prioridade dentro da especialização preferida (licenciados na área, finalistas na área, licenciados de áreas afins, finalistas de áreas afins, outros) e, dentro de cada prioridade, por uma classificação final que pondera a classificação da licenciatura (60%) e a classificação curricular (40%), esta última composta por atividade académica, profissional e científica devidamente comprovadas.</p>"
+          "a": "<p>Primeiro por prioridades, dentro da área de especialização indicada como preferência: licenciados na área do curso; finalistas de licenciatura na área do curso; licenciados de áreas afins; finalistas de licenciatura de áreas afins; outros.</p><p>Dentro de cada prioridade aplica-se a fórmula <b>CF = 0,6 &times; CL + 0,4 &times; CC</b>, em que <b>CC = 0,3 &times; AA + 0,4 &times; AP + 0,3 &times; AC</b>. CL é a classificação da licenciatura (para finalistas, a média das unidades curriculares aprovadas à data da candidatura). CC é a classificação curricular, composta por atividade académica (AA, outras formações), atividade profissional (AP, experiência relevante para a área) e atividade científica (AC, investigação e desenvolvimento relevantes). A classificação final é expressa de 0 a 20, arredondada às décimas; só são consideradas as referências devidamente comprovadas.</p>"
         },
         {
           "id": "pode-haver-entrevista-ou-pre-requisitos",
           "q": "Pode haver entrevista ou pré-requisitos?",
-          "a": "<p>Sim, se o júri assim o entender. Podem existir entrevistas de motivação e disponibilidade, pode ser exigida a aprovação em determinadas unidades curriculares como pré-requisito de matrícula, e podem ser excluídas candidaturas de titulares de habilitações de área científica diferente.</p>"
+          "a": "<p>Sim, se o júri assim o entender. Pode haver entrevistas, para avaliar motivação, línguas e disponibilidade, pode ser exigida a frequência com aproveitamento de determinadas unidades curriculares como pré-requisito de matrícula, e podem ser excluídas candidaturas de titulares de habilitações de área científica diferente.</p>"
         },
         {
           "id": "em-que-casos-a-candidatura-e-indeferida",
-          "q": "Em que casos a candidatura é indeferida ou excluída?",
+          "q": "Em que casos a candidatura é liminarmente indeferida ou excluída?",
           "a": "<p>É indeferida liminarmente quando apresentada fora dos termos e prazos do edital, por falta de pagamento da taxa, ou por situação irregular de propinas. É excluída por falta de documentos obrigatórios, falsas declarações, incumprimento das condições de acesso, ou inscrição prescrita no ensino superior.</p>"
         },
         {
           "id": "onde-vejo-os-resultados-e-como-reclamo",
           "q": "Onde vejo os resultados e como reclamo?",
-          "a": "<p>Os resultados são divulgados por edital em <a href='https://portal.isep.ipp.pt' target='_blank' rel='noopener'>portal.isep.ipp.pt</a>. Das decisões do júri não cabe reclamação, salvo vício de forma, dirigida à Presidente da Escola através de <a href='https://www.isep.ipp.pt/mestrados' target='_blank' rel='noopener'>www.isep.ipp.pt/mestrados</a>, dentro dos prazos aplicáveis e mediante pagamento de taxa, reembolsável se a reclamação for deferida.</p>"
+          "a": "<p>Os resultados são divulgados por edital em <a href='https://portal.isep.ipp.pt' target='_blank' rel='noopener'>portal.isep.ipp.pt</a>, com acesso de convidado, em Inscrições &rsaquo; Candidaturas &rsaquo; Candidaturas. Das decisões do júri não cabe reclamação, salvo quando arguidas de vício de forma, caso em que é dirigida à Presidente da Escola. A reclamação é submetida em <a href='https://www.isep.ipp.pt/mestrados' target='_blank' rel='noopener'>www.isep.ipp.pt/mestrados</a>, na opção \"Efetuar reclamação\", nos prazos do Anexo II do Edital, e implica o pagamento de uma taxa, devolvida se a reclamação for deferida.</p>"
         },
         {
           "id": "fiquei-em-lista-de-espera-o-que",
           "q": "Fiquei em lista de espera. O que acontece se alguém desistir?",
-          "a": "<p>A Divisão Académica convoca eletronicamente os candidatos não colocados, por ordem decrescente de classificação. Quem é convocado tem quatro dias úteis, após a notificação, para se matricular e inscrever.</p>"
+          "a": "<p>A Divisão Académica convoca eletronicamente os candidatos não colocados, por ordem decrescente de classificação, até esgotar as vagas ou os candidatos. Quem é convocado tem quatro dias úteis, após a receção da notificação, para se matricular e inscrever.</p>"
         },
         {
           "id": "posso-candidatar-me-fora-de-prazo",
           "q": "Posso candidatar-me fora de prazo?",
-          "a": "<p>Concluídas todas as fases, podem ser aceites candidaturas fora de prazo mediante requerimento fundamentado à Divisão Académica, sujeito a taxa de candidatura acrescida de taxa por ato administrativo fora de prazo.</p>"
+          "a": "<p>Concluídas todas as fases, podem ser aceites candidaturas fora de prazo mediante requerimento fundamentado à Divisão Académica, desde que existam condições de integração. Ficam sujeitas à taxa de candidatura acrescida da taxa por prática de ato administrativo fora de prazo.</p>"
         },
         {
           "id": "preciso-de-reconhecer-a-minha-licenciatura-estra",
           "q": "Preciso de reconhecer a minha licenciatura estrangeira?",
-          "a": "<p>Se o grau seguiu um 1.º ciclo segundo Bolonha, não. Caso contrário, é necessário pedir reconhecimento ao Conselho Técnico-Científico do ISEP ou à DGES, com documentos de identificação, diploma autenticado, histórico académico e conteúdos programáticos, aceites em português, inglês, francês ou espanhol.</p>"
+          "a": "<p>Se o grau seguiu um 1.º ciclo segundo Bolonha, não. Caso contrário, é necessário pedir reconhecimento ao Conselho Técnico-Científico do ISEP, solicitando o formulário a <a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a>, ou à DGES. São necessários documentos de identificação, diploma autenticado ou certificado equivalente, histórico académico com classificações, e conteúdos programáticos com duração e carga horária. São aceites em português, inglês, francês ou espanhol; noutras línguas devem ser traduzidos para português. Se já tiver reconhecimento emitido por instituição portuguesa, basta anexá-lo.</p>"
         }
       ]
     },
@@ -587,6 +587,11 @@ window.MEI_PT = {
           "id": "posso-mudar-de-area-de-especializacao",
           "q": "Posso mudar de área de especialização?",
           "a": "<p>Apenas a partir do ano letivo seguinte ao da primeira inscrição, mediante requerimento dirigido à Presidência do ISEP (artigo 13.º do Regulamento Geral de Mestrados).</p>"
+        },
+        {
+          "id": "tenho-uma-duvida-relacionada-com-o-mei",
+          "q": "Tenho uma dúvida relacionada com o MEI. A quem a coloco?",
+          "a": "<p>Envie e-mail para <a href='mailto:mei@isep.ipp.pt'>mei@isep.ipp.pt</a>. Questões que devam ser endereçadas aos serviços académicos, ou a outro dos contactos indicados acima, poderão não ter resposta. Em períodos de maior volume, a resposta pode não ser imediata.</p>"
         }
       ]
     },
@@ -772,7 +777,7 @@ window.MEI_PT = {
         {
           "id": "como-se-organiza-a-execucao-ao-longo",
           "q": "Como se organiza a execução ao longo do ano?",
-          "a": "<p>O trabalho é desenvolvido, em contexto académico ou empresarial, pelos estudantes que reúnem condições para se inscrever no 2.º ano do MEI, ou seja, os estudantes inscritos no 1.º ano que tenham concluído 35,5 ECTS ou mais. Divide-se em dois semestres:</p><ul><li><b>PREPD (1.º semestre).</b> Preparação teórica do trabalho, com análise do problema e do estado da arte. Decorre em tempo parcial, normalmente em paralelo com outras unidades curriculares, e habitualmente nas instalações do ISEP. Não se espera grande presença na entidade de acolhimento, mas devem realizar-se reuniões periódicas entre estudante, orientador e empresa.</li><li><b>DIMEI (2.º semestre).</b> Realização da dissertação propriamente dita, com produção das contribuições, em dedicação exclusiva, sem outras unidades curriculares ou tarefas em paralelo. Quando o trabalho decorre em contexto empresarial, é esperado que seja realizado em boa parte nas instalações da empresa.</li></ul>"
+          "a": "<p>O trabalho é desenvolvido, em contexto académico ou empresarial, pelos estudantes que reúnem condições para se inscrever no 2.º ano do MEI, ou seja, os estudantes inscritos no 1.º ano que tenham concluído 35,5 ECTS ou mais. Divide-se em dois semestres:</p><ul><li><b>PREPD (1.º semestre).</b> Preparação teórica do trabalho, com análise do problema e do estado da arte, na unidade curricular \"Preparação da Dissertação\". Decorre em tempo parcial, normalmente em paralelo com outras unidades curriculares, e habitualmente nas instalações do ISEP. Não se espera grande presença na entidade de acolhimento, mas devem realizar-se reuniões periódicas entre estudante, orientador e empresa.</li><li><b>DIMEI (2.º semestre).</b> Realização da dissertação propriamente dita, com produção das contribuições, em dedicação exclusiva, sem outras unidades curriculares ou tarefas em paralelo. Quando o trabalho decorre em contexto empresarial, é esperado que seja realizado em boa parte nas instalações da empresa.</li></ul>"
         },
         {
           "id": "como-decorre-o-processo-da-proposta-a",
@@ -797,7 +802,7 @@ window.MEI_PT = {
         {
           "id": "qual-e-o-calendario-tipico",
           "q": "Qual é o calendário típico?",
-          "a": "<p>As datas concretas são definidas no início de cada ano letivo. A título indicativo, o trabalho tem início entre 15 e 30 de setembro e conclui-se entre 15 de junho e 31 de outubro do ano seguinte. As propostas devem estar aprovadas a tempo da candidatura e da formalização, o que, em regra, aponta para meados de setembro.</p>"
+          "a": "<p>As datas concretas são definidas no início de cada ano letivo. A título indicativo, o trabalho tem início até 31 de outubro e conclui-se entre 15 de junho e 31 de outubro do ano seguinte (datas indicativas). As propostas devem estar aprovadas a tempo da candidatura e da formalização, o que, em regra, aponta para final de setembro.</p>"
         },
         {
           "id": "e-preciso-ter-orientador-do-isep-logo",
@@ -807,7 +812,7 @@ window.MEI_PT = {
         {
           "id": "posso-propor-o-meu-proprio-tema",
           "q": "Posso propor o meu próprio tema?",
-          "a": "<p>Sim. Além das propostas de empresas, instituições e docentes, pode propor o seu próprio tema. Para isso, precisa de encontrar um docente do ISEP que aceite orientá-lo e submeter a proposta na plataforma, através do docente, onde passa pelo processo de aprovação.</p>"
+          "a": "<p>Sim. Além das propostas de empresas, instituições e docentes, pode propor o seu próprio tema. A proposta tem de reunir as condições habituais: problema concreto, componente de Engenharia Informática e plano de trabalho. Precisa de encontrar um docente do ISEP que aceite orientá-lo e submeter a proposta na plataforma, através do docente, onde passa pelo processo de aprovação.</p>"
         },
         {
           "id": "que-formatos-pode-assumir-o-trabalho-final",
@@ -817,7 +822,7 @@ window.MEI_PT = {
         {
           "id": "posso-realizar-o-trabalho-final-na-empresa",
           "q": "Posso realizar o trabalho final na empresa onde trabalho?",
-          "a": "<p>Sim. O trabalho final pode assumir a forma de projeto de âmbito aplicado ou de estágio de natureza profissional em contexto empresarial, suportado por um protocolo de colaboração entre a entidade de acolhimento e o ISEP. A proposta tem de reunir as condições habituais, ser submetida e aprovada, e ter um orientador académico do ISEP.</p><p>Se o trabalho envolver informação sensível da empresa, pode ser pedida confidencialidade até um máximo de três anos. O trabalho tem, no entanto, de ser original e especialmente realizado para este fim.</p>"
+          "a": "<p>Sim. O trabalho final pode assumir a forma de projeto de âmbito aplicado ou de estágio de natureza profissional em contexto empresarial, suportado por um protocolo de colaboração entre a entidade de acolhimento e o ISEP. A proposta tem de reunir as condições habituais (problema concreto, componente de Engenharia Informática, plano de trabalho e condições de acolhimento e acompanhamento claras), ser submetida pela empresa e aprovada, e ter um orientador académico do ISEP.</p><p>Se o trabalho envolver informação sensível da empresa, pode ser pedida confidencialidade até um máximo de três anos. O trabalho tem, no entanto, de ser original e especialmente realizado para este fim.</p>"
         },
         {
           "id": "vou-fazer-estagio-no-ambito-do-dimei",
@@ -897,14 +902,16 @@ window.MEI_PT = {
     { "topic": "Dúvidas sobre o curso, PEI, temas de dissertação", "email": "mei@isep.ipp.pt" },
     { "topic": "Matrículas, inscrições, propinas, regime de inscrição", "email": "info-sa@isep.ipp.pt" },
     { "topic": "Turmas e horários (UCs do MEI)", "email": "turmasmesdei@isep.ipp.pt" },
-    { "topic": "Turmas e horários (LEI)", "email": "turmaslicdei@isep.ipp.pt" }
+    { "topic": "Turmas e horários (LEI)", "email": "turmaslicdei@isep.ipp.pt" },
+    { "topic": "Protocolos de estágio (Secretaria do DEI)", "email": "mlsb@isep.ipp.pt" }
   ],
 
   /* Sites and platforms, kept apart from the e-mail contacts above. */
   faqLinks: [
     { "topic": "Candidaturas e reclamações", "label": "www.isep.ipp.pt/mestrados", "href": "https://www.isep.ipp.pt/mestrados" },
     { "topic": "Resultados do concurso", "label": "portal.isep.ipp.pt", "href": "https://portal.isep.ipp.pt" },
-    { "topic": "Propostas de dissertação, projeto e estágio", "label": "projetos.dei.isep.ipp.pt", "href": "https://projetos.dei.isep.ipp.pt/home" }
+    { "topic": "Propostas de dissertação, projeto e estágio", "label": "projetos.dei.isep.ipp.pt", "href": "https://projetos.dei.isep.ipp.pt/home" },
+    { "topic": "Divisão Académica (Mestrados)", "label": "Serviços Académicos", "href": "https://www.isep.ipp.pt/Page/ViewPage/divisao_academica_mest" }
   ],
 
   faqSources: [
@@ -914,7 +921,7 @@ window.MEI_PT = {
     "Despacho n.º 11560/2022, plano de estudos do Mestrado em Engenharia Informática (Diário da República, 2.ª série, n.º 189, 29 set 2022)",
     "Despacho IPP/P-098/2008, Mestrados, cálculo da média final",
     "Regulamento de Reconhecimento e Creditação/Certificação de Competências do P.PORTO (Diário da República, 2.ª série, 2019)",
-    "Divisão Académica do ISEP, página \"Acesso a Mestrados\" (<a href='https://www.isep.ipp.pt/Page/ViewPage/divisao_academica_mest' target='_blank' rel='noopener'>isep.ipp.pt</a>)"
+    "Divisão Académica do ISEP, página \"Acesso a Mestrados\" (<a href='https://www.isep.ipp.pt/Page/ViewPage/divisao_academica_mest' target='_blank' rel='noopener'>isep.ipp.pt</a>), atualizada em 02/06/2026"
   ],
 
   contacts: {
