@@ -65,7 +65,8 @@ window.MEI_PT = {
       labLabel: "2.º ano · Lab integrador",
       labExtra: "+ Inovação, Empreendedorismo e Liderança · Preparação de Dissertação · depois o trabalho final de 30 ECTS: dissertação, projeto ou estágio.",
       projLabel: "Trabalhos recentes · ReCIPP",
-      fifthLabel: "+ Uma quinta especialização."
+      fifthLabel: "+ Uma quinta especialização.",
+      contentsNote: "<b>Nota.</b> Os conteúdos aqui apresentados são ilustrativos e podem ser alterados. Prevalecem sempre o plano de estudos em vigor e as fichas das unidades curriculares publicadas oficialmente."
     },
     estrutura: {
       eyebrow: "Estrutura",

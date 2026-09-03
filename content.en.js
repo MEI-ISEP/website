@@ -66,7 +66,8 @@ window.MEI_EN = {
       labLabel: "Year 2 · Integrating lab",
       labExtra: "+ Innovation, Entrepreneurship and Leadership · Dissertation Preparation · then the 30 ECTS final project: dissertation, industry project or internship.",
       projLabel: "Recent work · ReCIPP",
-      fifthLabel: "+ A fifth specialization."
+      fifthLabel: "+ A fifth specialization.",
+      contentsNote: "<b>Note.</b> The contents shown here are illustrative and may change. The study plan in force and the officially published course unit descriptions always take precedence."
     },
     estrutura: {
       eyebrow: "Structure",
