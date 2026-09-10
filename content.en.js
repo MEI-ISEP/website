@@ -468,7 +468,7 @@ window.MEI_EN = {
   faqGroups: [
     {
       "title": "Application and admission",
-      "note": "<b>Local competition.</b> Access to ISEP's master's programmes is through a local competition, organised annually in three rounds (the first, as a rule, between May and June) and preceded by publication of the corresponding official call, which sets deadlines, procedures, places and ranking criteria. This matter falls under the responsibility of the Academic Division (Academic Services).",
+      "note": "<b>Local competition.</b> Access to ISEP's master's programmes is through a local competition, organised annually in three rounds (the first, as a rule, between May and June) and preceded by publication of the corresponding official call, which sets deadlines, procedures, places and ranking criteria. This matter falls under the responsibility of the Academic Division (Academic Services). See also the <a href='candidatura.html'>Admissions</a> page, which sets out the process in four steps, the documents to prepare and the official call in force.",
       "items": [
         {
           "id": "quem-se-pode-candidatar",
@@ -483,22 +483,22 @@ window.MEI_EN = {
         {
           "id": "quantas-fases-de-candidatura-existem",
           "q": "How many application rounds are there?",
-          "a": "<p>Three rounds, with deadlines set annually in the official call. In the second and third rounds only the places left unfilled in earlier rounds are offered; it is usual for all places to be filled in the first round.</p>"
+          "a": "<p>Three rounds, with deadlines set annually in the official call. In the second and third rounds only the places left unfilled in earlier rounds are offered; it is usual for all places to be filled in the first round.</p><p>Applying in the first round is therefore recommended, as explained on the <a href='candidatura.html#ramos'>Admissions</a> page.</p>"
         },
         {
           "id": "onde-apresento-a-candidatura",
           "q": "Where do I submit the application?",
-          "a": "<p>At <a href='https://www.isep.ipp.pt/mestrados' target='_blank' rel='noopener'>www.isep.ipp.pt/mestrados</a>. On the programme page, open the side tab \"A tua candidatura\", select \"Candidaturas\" and, if you do not yet have an access key, click \"Obter chave de acesso\".</p>"
+          "a": "<p>At <a href='https://www.isep.ipp.pt/mestrados' target='_blank' rel='noopener'>www.isep.ipp.pt/mestrados</a>. On the programme page, open the side tab \"A tua candidatura\", select \"Candidaturas\" and, if you do not yet have an access key, click \"Obter chave de acesso\".</p><p>The full path, from application to enrolment, is set out on the <a href='candidatura.html#processo'>Admissions</a> page.</p>"
         },
         {
           "id": "qual-e-o-valor-das-propinas",
           "q": "How much is the tuition fee?",
-          "a": "<p>There is an annual tuition fee, differentiated between national and international students, with nationals of a CPLP member state possibly qualifying for a discount. Payment in instalments and part-time enrolment are available to all students. The amounts in force are published by the Academic Division; for any question about payments, contact <a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a>.</p>"
+          "a": "<p>There is an annual tuition fee, differentiated between national and international students, with nationals of a CPLP member state possibly qualifying for a discount. Payment in instalments and part-time enrolment are available to all students. The amounts in force are published by the Academic Division; for any question about payments, contact <a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a>.</p><p>The tuition arrangements, including payment in instalments and part-time enrolment, are summarised on the <a href='candidatura.html#casos'>Admissions</a> page.</p>"
         },
         {
           "id": "que-documentos-tenho-de-submeter",
           "q": "Which documents must I submit?",
-          "a": "<p>The completed application form, the order of preference among specializations and, in digital format: identification/nationality document and proof of tax number (NIF) (foreign candidates must, where applicable, show that they do not fall under the \"international student\" status); proof of the qualification you are applying with (mandatory for candidates from other institutions); proof of recognition of the qualification, where applicable; and a detailed academic and professional CV covering qualifications and grades, professional experience, certified continuing education, projects and publications.</p><p><b>ISEP students.</b> Students who held a valid registration and enrolment at ISEP in the previous academic year are exempt from submitting these documents. ISEP students may also present information obtained from the ISEP portal as proof of holding the qualification they are applying with.</p><p><b>Note:</b> even so, document your application well. Include your student number and information on the grades (and the average) obtained, since some applications omit these details, making it impossible to retrieve the candidate's academic record and identify them beyond doubt as an ISEP student.</p>"
+          "a": "<p>The completed application form, the order of preference among specializations and, in digital format: identification/nationality document and proof of tax number (NIF) (foreign candidates must, where applicable, show that they do not fall under the \"international student\" status); proof of the qualification you are applying with (mandatory for candidates from other institutions); proof of recognition of the qualification, where applicable; and a detailed academic and professional CV covering qualifications and grades, professional experience, certified continuing education, projects and publications.</p><p><b>ISEP students.</b> Students who held a valid registration and enrolment at ISEP in the previous academic year are exempt from submitting these documents. ISEP students may also present information obtained from the ISEP portal as proof of holding the qualification they are applying with.</p><p><b>Note:</b> even so, document your application well. Include your student number and information on the grades (and the average) obtained, since some applications omit these details, making it impossible to retrieve the candidate's academic record and identify them beyond doubt as an ISEP student.</p><p>The <a href='candidatura.html#processo'>Admissions</a> page also states which supporting documents are accepted for qualifications, professional experience and scientific activity.</p>"
         },
         {
           "id": "como-sao-seriados-os-candidatos",
@@ -523,7 +523,7 @@ window.MEI_EN = {
         {
           "id": "fiquei-em-lista-de-espera-o-que",
           "q": "I am on the waiting list. What happens if someone withdraws?",
-          "a": "<p>The Academic Division contacts unplaced candidates electronically, in descending order of classification, until places or candidates are exhausted. Those contacted have four working days from receipt of the notification to register and enrol.</p>"
+          "a": "<p>The Academic Division contacts unplaced candidates electronically, in descending order of classification, until places or candidates are exhausted. Those contacted have four working days from receipt of the notification to register and enrol.</p><p>The difference between being admitted and being placed is explained on the <a href='candidatura.html#processo'>Admissions</a> page.</p>"
         },
         {
           "id": "posso-candidatar-me-fora-de-prazo",
@@ -533,7 +533,7 @@ window.MEI_EN = {
         {
           "id": "preciso-de-reconhecer-a-minha-licenciatura-estra",
           "q": "Do I need to have my foreign bachelor's recognised?",
-          "a": "<p>If the degree followed a first cycle under Bologna, no. Otherwise, recognition must be requested from the Technical-Scientific Council of ISEP, asking <a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a> for the form, or from the DGES. The documents required are identification, an authenticated diploma or equivalent certificate, an academic transcript with grades, and syllabus contents with duration and contact hours. These are accepted in Portuguese, English, French or Spanish; in other languages they must be translated into Portuguese. If you already hold a recognition issued by a Portuguese institution, simply attach it.</p>"
+          "a": "<p>If the degree followed a first cycle under Bologna, no. Otherwise, recognition must be requested from the Technical-Scientific Council of ISEP, asking <a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a> for the form, or from the DGES. The documents required are identification, an authenticated diploma or equivalent certificate, an academic transcript with grades, and syllabus contents with duration and contact hours. These are accepted in Portuguese, English, French or Spanish; in other languages they must be translated into Portuguese. If you already hold a recognition issued by a Portuguese institution, simply attach it.</p><p>Deal with recognition well in advance: it is one of the most frequent reasons for exclusion, as noted on the <a href='candidatura.html#processo'>Admissions</a> page.</p>"
         }
       ]
     },
@@ -543,7 +543,7 @@ window.MEI_EN = {
         {
           "id": "fui-admitido-ao-mei-o-que-devo",
           "q": "I have been admitted to the MEI. What should I do?",
-          "a": "<p>Contact the ISEP Academic Services (<a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a>) to begin registration and enrolment in the course units you will attend, within the deadlines set in the official call, at <a href='https://portal.isep.ipp.pt' target='_blank' rel='noopener'>portal.isep.ipp.pt</a>.</p>"
+          "a": "<p>Contact the ISEP Academic Services (<a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a>) to begin registration and enrolment in the course units you will attend, within the deadlines set in the official call, at <a href='https://portal.isep.ipp.pt' target='_blank' rel='noopener'>portal.isep.ipp.pt</a>.</p><p>The registration and enrolment steps are set out on the <a href='candidatura.html#processo'>Admissions</a> page.</p>"
         },
         {
           "id": "posso-alterar-a-inscricao-a-uma-unidade",
@@ -583,7 +583,7 @@ window.MEI_EN = {
         {
           "id": "qual-o-objetivo-do-pei",
           "q": "What is the purpose of the PEI?",
-          "a": "<p>To complement students' background in basic sciences (mathematics and physics) and/or in the sciences of the field (informatics engineering), so that they can undertake the MEI successfully.</p>"
+          "a": "<p>To complement students' background in basic sciences (mathematics and physics) and/or in the sciences of the field (informatics engineering), so that they can undertake the MEI successfully.</p><p>The prerequisites the PEI secures are summarised on the <a href='candidatura.html#casos'>Admissions</a> page.</p>"
         },
         {
           "id": "dois-estudantes-da-mesma-licenciatura-podem-ter",

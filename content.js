@@ -466,7 +466,7 @@ window.MEI_PT = {
   faqGroups: [
     {
       "title": "Candidatura e admissão",
-      "note": "<b>Concurso local.</b> O acesso aos cursos de mestrado do ISEP faz-se por concurso local, organizado anualmente em três fases (a primeira, em regra, entre maio e junho) e precedido da publicação do respetivo Edital, que define prazos, procedimentos, vagas e critérios de seriação. Este assunto é da responsabilidade da Divisão Académica (Serviços Académicos).",
+      "note": "<b>Concurso local.</b> O acesso aos cursos de mestrado do ISEP faz-se por concurso local, organizado anualmente em três fases (a primeira, em regra, entre maio e junho) e precedido da publicação do respetivo Edital, que define prazos, procedimentos, vagas e critérios de seriação. Este assunto é da responsabilidade da Divisão Académica (Serviços Académicos). Veja também a página de <a href='candidatura.html'>Candidatura</a>, que resume o processo em quatro etapas, os documentos a preparar e o edital em vigor.",
       "items": [
         {
           "id": "quem-se-pode-candidatar",
@@ -481,22 +481,22 @@ window.MEI_PT = {
         {
           "id": "quantas-fases-de-candidatura-existem",
           "q": "Quantas fases de candidatura existem?",
-          "a": "<p>Três fases, com prazos fixados anualmente em Edital. Nas 2.ª e 3.ª fases apenas são colocadas a concurso as vagas não preenchidas nas fases anteriores; é habitual que todas as vagas sejam preenchidas na primeira fase.</p>"
+          "a": "<p>Três fases, com prazos fixados anualmente em Edital. Nas 2.ª e 3.ª fases apenas são colocadas a concurso as vagas não preenchidas nas fases anteriores; é habitual que todas as vagas sejam preenchidas na primeira fase.</p><p>Recomenda-se, por isso, a submissão na 1.ª fase, como se explica em <a href='candidatura.html#ramos'>Candidatura</a>.</p>"
         },
         {
           "id": "onde-apresento-a-candidatura",
           "q": "Onde apresento a candidatura?",
-          "a": "<p>Em <a href='https://www.isep.ipp.pt/mestrados' target='_blank' rel='noopener'>www.isep.ipp.pt/mestrados</a>. Na página do curso, abra o separador lateral \"A tua candidatura\", selecione \"Candidaturas\" e, caso ainda não tenha chave de acesso, clique em \"Obter chave de acesso\".</p>"
+          "a": "<p>Em <a href='https://www.isep.ipp.pt/mestrados' target='_blank' rel='noopener'>www.isep.ipp.pt/mestrados</a>. Na página do curso, abra o separador lateral \"A tua candidatura\", selecione \"Candidaturas\" e, caso ainda não tenha chave de acesso, clique em \"Obter chave de acesso\".</p><p>O percurso completo, da candidatura à matrícula, está descrito em <a href='candidatura.html#processo'>Candidatura</a>.</p>"
         },
         {
           "id": "qual-e-o-valor-das-propinas",
           "q": "Qual é o valor das propinas?",
-          "a": "<p>Há uma propina anual, diferenciada entre estudantes nacionais e internacionais, podendo os nacionais de um Estado-membro da CPLP beneficiar de desconto. Está prevista a possibilidade de pagamento faseado e de frequência em regime de tempo parcial para todos os estudantes. Os valores em vigor são publicados pela Divisão Académica; para qualquer questão sobre pagamentos, contacte <a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a>.</p>"
+          "a": "<p>Há uma propina anual, diferenciada entre estudantes nacionais e internacionais, podendo os nacionais de um Estado-membro da CPLP beneficiar de desconto. Está prevista a possibilidade de pagamento faseado e de frequência em regime de tempo parcial para todos os estudantes. Os valores em vigor são publicados pela Divisão Académica; para qualquer questão sobre pagamentos, contacte <a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a>.</p><p>O regime de propinas, incluindo pagamento faseado e tempo parcial, está resumido em <a href='candidatura.html#casos'>Candidatura</a>.</p>"
         },
         {
           "id": "que-documentos-tenho-de-submeter",
           "q": "Que documentos tenho de submeter?",
-          "a": "<p>O formulário de candidatura preenchido, a ordem de preferência das especializações e, em formato digital: documento de identificação/nacionalidade e comprovativo de NIF (candidatos estrangeiros devem, quando aplicável, comprovar que não têm enquadramento como \"estudante internacional\"); comprovativo da habilitação com que se candidata (obrigatório para candidatos de outras instituições); comprovativo de reconhecimento da habilitação, quando aplicável; e currículo académico e profissional detalhado, com habilitações e classificações, experiência profissional, formação contínua certificada, projetos e publicações.</p><p><b>Estudantes do ISEP.</b> Estudantes que tiveram matrícula e inscrição válidas no ISEP no ano letivo anterior estão dispensados da entrega destes documentos. Além disso, os estudantes do ISEP podem apresentar informação obtida através do portal do ISEP como comprovativo da titularidade da habilitação com que se candidatam.</p><p><b>Nota:</b> ainda assim, documente bem a candidatura. Inclua o número de estudante e informação sobre as classificações (e a média) obtidas, pois há candidaturas que omitem estes dados, tornando impossível recuperar a informação académica do candidato e identificá-lo, sem margem para dúvidas, como estudante do ISEP.</p>"
+          "a": "<p>O formulário de candidatura preenchido, a ordem de preferência das especializações e, em formato digital: documento de identificação/nacionalidade e comprovativo de NIF (candidatos estrangeiros devem, quando aplicável, comprovar que não têm enquadramento como \"estudante internacional\"); comprovativo da habilitação com que se candidata (obrigatório para candidatos de outras instituições); comprovativo de reconhecimento da habilitação, quando aplicável; e currículo académico e profissional detalhado, com habilitações e classificações, experiência profissional, formação contínua certificada, projetos e publicações.</p><p><b>Estudantes do ISEP.</b> Estudantes que tiveram matrícula e inscrição válidas no ISEP no ano letivo anterior estão dispensados da entrega destes documentos. Além disso, os estudantes do ISEP podem apresentar informação obtida através do portal do ISEP como comprovativo da titularidade da habilitação com que se candidatam.</p><p><b>Nota:</b> ainda assim, documente bem a candidatura. Inclua o número de estudante e informação sobre as classificações (e a média) obtidas, pois há candidaturas que omitem estes dados, tornando impossível recuperar a informação académica do candidato e identificá-lo, sem margem para dúvidas, como estudante do ISEP.</p><p>Em <a href='candidatura.html#processo'>Candidatura</a> encontra ainda que comprovativos são aceites para habilitações, experiência profissional e atividade científica.</p>"
         },
         {
           "id": "como-sao-seriados-os-candidatos",
@@ -521,7 +521,7 @@ window.MEI_PT = {
         {
           "id": "fiquei-em-lista-de-espera-o-que",
           "q": "Fiquei em lista de espera. O que acontece se alguém desistir?",
-          "a": "<p>A Divisão Académica convoca eletronicamente os candidatos não colocados, por ordem decrescente de classificação, até esgotar as vagas ou os candidatos. Quem é convocado tem quatro dias úteis, após a receção da notificação, para se matricular e inscrever.</p>"
+          "a": "<p>A Divisão Académica convoca eletronicamente os candidatos não colocados, por ordem decrescente de classificação, até esgotar as vagas ou os candidatos. Quem é convocado tem quatro dias úteis, após a receção da notificação, para se matricular e inscrever.</p><p>A diferença entre admitido e colocado está explicada em <a href='candidatura.html#processo'>Candidatura</a>.</p>"
         },
         {
           "id": "posso-candidatar-me-fora-de-prazo",
@@ -531,7 +531,7 @@ window.MEI_PT = {
         {
           "id": "preciso-de-reconhecer-a-minha-licenciatura-estra",
           "q": "Preciso de reconhecer a minha licenciatura estrangeira?",
-          "a": "<p>Se o grau seguiu um 1.º ciclo segundo Bolonha, não. Caso contrário, é necessário pedir reconhecimento ao Conselho Técnico-Científico do ISEP, solicitando o formulário a <a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a>, ou à DGES. São necessários documentos de identificação, diploma autenticado ou certificado equivalente, histórico académico com classificações, e conteúdos programáticos com duração e carga horária. São aceites em português, inglês, francês ou espanhol; noutras línguas devem ser traduzidos para português. Se já tiver reconhecimento emitido por instituição portuguesa, basta anexá-lo.</p>"
+          "a": "<p>Se o grau seguiu um 1.º ciclo segundo Bolonha, não. Caso contrário, é necessário pedir reconhecimento ao Conselho Técnico-Científico do ISEP, solicitando o formulário a <a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a>, ou à DGES. São necessários documentos de identificação, diploma autenticado ou certificado equivalente, histórico académico com classificações, e conteúdos programáticos com duração e carga horária. São aceites em português, inglês, francês ou espanhol; noutras línguas devem ser traduzidos para português. Se já tiver reconhecimento emitido por instituição portuguesa, basta anexá-lo.</p><p>Trate do reconhecimento com a devida antecedência: é um dos motivos mais frequentes de exclusão, como se assinala em <a href='candidatura.html#processo'>Candidatura</a>.</p>"
         }
       ]
     },
@@ -541,7 +541,7 @@ window.MEI_PT = {
         {
           "id": "fui-admitido-ao-mei-o-que-devo",
           "q": "Fui admitido ao MEI. O que devo fazer?",
-          "a": "<p>Contactar os Serviços Académicos do ISEP (<a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a>) para dar início ao procedimento de matrícula e inscrição nas unidades curriculares que irá frequentar, nos prazos fixados no Edital, em <a href='https://portal.isep.ipp.pt' target='_blank' rel='noopener'>portal.isep.ipp.pt</a>.</p>"
+          "a": "<p>Contactar os Serviços Académicos do ISEP (<a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a>) para dar início ao procedimento de matrícula e inscrição nas unidades curriculares que irá frequentar, nos prazos fixados no Edital, em <a href='https://portal.isep.ipp.pt' target='_blank' rel='noopener'>portal.isep.ipp.pt</a>.</p><p>As etapas de matrícula e inscrição estão descritas em <a href='candidatura.html#processo'>Candidatura</a>.</p>"
         },
         {
           "id": "posso-alterar-a-inscricao-a-uma-unidade",
@@ -581,7 +581,7 @@ window.MEI_PT = {
         {
           "id": "qual-o-objetivo-do-pei",
           "q": "Qual o objetivo do PEI?",
-          "a": "<p>Complementar a formação base dos alunos em ciências básicas (matemática e física) e/ou em ciências da área (engenharia informática), de modo a poderem frequentar com sucesso o MEI.</p>"
+          "a": "<p>Complementar a formação base dos alunos em ciências básicas (matemática e física) e/ou em ciências da área (engenharia informática), de modo a poderem frequentar com sucesso o MEI.</p><p>Os pré-requisitos que o PEI assegura estão resumidos em <a href='candidatura.html#casos'>Candidatura</a>.</p>"
         },
         {
           "id": "dois-estudantes-da-mesma-licenciatura-podem-ter",
