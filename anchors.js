@@ -2,7 +2,7 @@
    anchors.js — MEI · ISEP website
    Gives every main section a copy-able deep link. Hovering a
    section heading reveals a "#" that copies the absolute URL of
-   that section to the clipboard and sets the hash — the same
+   that section to the clipboard and sets the hash, the same
    affordance faq.js already gives each individual question.
 
    A heading is anchorable when it carries an id of its own, or

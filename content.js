@@ -146,7 +146,7 @@ window.MEI_PT = {
       eyebrow: "Candidatos e novos alunos",
       h1: "Perguntas frequentes",
       intro: "As respostas mais procuradas por quem se candidata ao MEI e por quem, já admitido, está a tratar da matrícula: admissão, propinas, matrícula e inscrição, plano de estudos individual e creditações.",
-      moodleNote: "<p><b>Já é estudante do MEI?</b> Esta página cobre a candidatura e a entrada no mestrado. A FAQ completa para estudantes inscritos — aulas, turmas e horários, avaliação, dissertação e restante vida académica — está na área do MEI no <a href='https://moodle.isep.ipp.pt' target='_blank' rel='noopener'>Moodle do ISEP</a>. Entre com as suas credenciais do ISEP para a consultar.</p>",
+      moodleNote: "<p><b>Já é estudante do MEI?</b> Esta página cobre a candidatura e a entrada no mestrado. A FAQ completa para estudantes inscritos, com aulas, turmas e horários, avaliação, dissertação e restante vida académica, está na área do MEI no <a href='https://moodle.isep.ipp.pt' target='_blank' rel='noopener'>Moodle do ISEP</a>. Entre com as suas credenciais do ISEP para a consultar.</p>",
       contactsEyebrow: "Contactos úteis",
       contactsH2: "Para cada assunto, o contacto certo",
       thAssunto: "Assunto",

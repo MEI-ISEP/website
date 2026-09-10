@@ -147,7 +147,7 @@ window.MEI_EN = {
       eyebrow: "Applicants and new students",
       h1: "Frequently asked questions",
       intro: "The answers most often needed by those applying to the MEI and by those already admitted and completing their registration: admission, tuition fees, registration and enrolment, the Individual Study Plan and credit recognition.",
-      moodleNote: "<p><b>Already an MEI student?</b> This page covers applying to the programme and getting enrolled. The full FAQ for enrolled students — classes, timetables, assessment, the dissertation and the rest of academic life — is in the MEI area on <a href='https://moodle.isep.ipp.pt' target='_blank' rel='noopener'>ISEP's Moodle</a>. Sign in with your ISEP credentials to read it.</p>",
+      moodleNote: "<p><b>Already an MEI student?</b> This page covers applying to the programme and getting enrolled. The full FAQ for enrolled students, covering classes, timetables, assessment, the dissertation and the rest of academic life, is in the MEI area on <a href='https://moodle.isep.ipp.pt' target='_blank' rel='noopener'>ISEP's Moodle</a>. Sign in with your ISEP credentials to read it.</p>",
       contactsEyebrow: "Useful contacts",
       contactsH2: "The right contact for each subject",
       thAssunto: "Subject",
