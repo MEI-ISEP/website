@@ -369,6 +369,9 @@ a { color: inherit; text-decoration: none; }
 .callout p:last-child { margin-bottom: 0; }
 .callout a { color: var(--mei-red); text-decoration: underline; text-underline-offset: 2px; }
 .callout a:hover { color: var(--mei-red-deep); }
+/* Lead callout: a page-level note that has to be read before the content
+   under it (used for the enrolled-students pointer on the FAQ). */
+.callout--lead { margin-bottom: 40px; padding: 22px 26px; font-size: 15px; background: var(--soft-warm, var(--soft)); border-left-width: 4px; }
 .adm-two { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); margin-top: 1px; }
 .adm-card { background: var(--paper); padding: 28px 26px; }
 .adm-card h4 { font-size: 15px; font-weight: 800; color: var(--ink-900); margin: 0 0 6px; }
@@ -727,3 +730,28 @@ a { color: inherit; text-decoration: none; }
    FOOTER — stays dark in the light variant, as an anchor.
    ============================================================ */
 :root .footer { background: var(--stage-black); border-top: 1px solid rgba(255,255,255,.1); color: rgba(255,255,255,.6); }
+
+/* ---- Section anchor links (anchors.js) ----------------------------
+   Hover-revealed "#" beside every anchorable heading, matching the
+   per-question link on the FAQ. Headings that are anchor targets in
+   their own right need scroll-margin so the sticky nav does not cover
+   them on arrival; whole sections already clear it with their padding. */
+.section h2[id], .section .eyebrow[id] { scroll-margin-top: calc(var(--nav-h) + 24px); }
+.anchor-host { position: relative; }
+.anchor-link {
+  display: inline-block; margin-left: 10px; vertical-align: middle;
+  font-family: var(--font-mono); font-size: 13px; font-weight: 700; line-height: 1;
+  color: var(--ink-300); text-decoration: none; padding: 3px 5px; border-radius: 2px;
+  opacity: 0; transition: opacity .2s ease, color .2s ease, background .2s ease;
+}
+.eyebrow .anchor-link { font-size: 11px; margin-left: 2px; }
+.anchor-host:hover .anchor-link, .anchor-link:focus-visible { opacity: 1; }
+.anchor-link:hover { color: var(--mei-red); background: var(--soft); }
+.anchor-link.copied { opacity: 1; color: var(--mei-red); }
+.anchor-link.copied::after { content: " \2713"; }
+/* Dark sections: the faint ink grey would disappear against them. */
+.closing .anchor-link, .subhero .anchor-link { color: rgba(255,255,255,.45); }
+.closing .anchor-link:hover, .subhero .anchor-link:hover { color: #fff; background: rgba(255,255,255,.12); }
+.closing .anchor-link.copied, .subhero .anchor-link.copied { color: #fff; }
+/* Touch: no hover to reveal it, so keep it permanently visible but quiet. */
+@media (hover: none) { .anchor-link { opacity: .55; } }

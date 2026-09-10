@@ -7,13 +7,17 @@ window.MEI_PT = {
   /* ---- Static page chrome (see i18n.js). Mirrored in content.en.js. ---- */
   ui: {
     langName: "Português",
+    anchor: {
+      copy: "Copiar ligação para esta secção",
+      copied: "Ligação copiada"
+    },
     meta: {
       home: "MEI · Mestrado em Engenharia Informática · ISEP",
       homeDesc: "Mestrado em Engenharia Informática do ISEP, Universidade Técnica do Porto. Cinco especializações, 120 ECTS, regime pós-laboral e trabalho final em contexto empresarial ou de investigação.",
       cand: "Candidatura · MEI · ISEP",
       candDesc: "Como submeter a candidatura ao Mestrado em Engenharia Informática do ISEP: documentação, fases e plano de estudos individual.",
       faq: "FAQ · MEI · ISEP",
-      faqDesc: "Perguntas frequentes sobre o Mestrado em Engenharia Informática do ISEP: inscrições, horários, plano de estudos individual, avaliação e trabalho final.",
+      faqDesc: "Perguntas frequentes sobre a candidatura e a entrada no Mestrado em Engenharia Informática do ISEP: admissão, propinas, matrícula e inscrição, plano de estudos individual e creditações.",
       coop: "Parcerias · MEI · ISEP",
       coopDesc: "Como empresas e instituições podem estabelecer parcerias com o Mestrado em Engenharia Informática do ISEP: propostas de dissertação, projetos em unidades curriculares, palestras, estágios de verão e atividades extracurriculares."
     },
@@ -139,9 +143,10 @@ window.MEI_PT = {
     faq: {
       crumbHome: "Início",
       crumb: "FAQ",
-      eyebrow: "Novos alunos",
+      eyebrow: "Candidatos e novos alunos",
       h1: "Perguntas frequentes",
-      intro: "As respostas mais procuradas sobre inscrições, horários, plano de estudos individual, avaliação e trabalho final.",
+      intro: "As respostas mais procuradas por quem se candidata ao MEI e por quem, já admitido, está a tratar da matrícula: admissão, propinas, matrícula e inscrição, plano de estudos individual e creditações.",
+      moodleNote: "<p><b>Já é estudante do MEI?</b> Esta página cobre a candidatura e a entrada no mestrado. A FAQ completa para estudantes inscritos — aulas, turmas e horários, avaliação, dissertação e restante vida académica — está na área do MEI no <a href='https://moodle.isep.ipp.pt' target='_blank' rel='noopener'>Moodle do ISEP</a>. Entre com as suas credenciais do ISEP para a consultar.</p>",
       contactsEyebrow: "Contactos úteis",
       contactsH2: "Para cada assunto, o contacto certo",
       thAssunto: "Assunto",
@@ -448,7 +453,7 @@ window.MEI_PT = {
     practical: [
       { k: "Quem orienta", v: "A equipa de orientação inclui obrigatoriamente um docente ou investigador do ISEP, doutorado ou detentor do título de Especialista, podendo existir coorientador. Nos trabalhos em empresa existe ainda a figura de supervisor, para o responsável técnico da entidade de acolhimento, que acompanha o trabalho do lado da organização sem requisitos académicos." },
       { k: "Onde decorre o trabalho", v: "No 1.º semestre (na Unidade Curricular PREPD) o trabalho é sobretudo de análise e de estado da arte; decorre em tempo parcial e habitualmente nas instalações do ISEP; não se espera grande presença na entidade de acolhimento, mas devem realizar-se reuniões periódicas entre estudante, orientador e empresa. No 2.º semestre (na Unidade Curricular DIMEI), em dedicação exclusiva, espera-se que o trabalho decorra, em boa parte, nas instalações da empresa." },
-      { k: "Protocolo de colaboração", v: "Quando o trabalho decorre em contexto empresarial é suportado por um protocolo de colaboração entre a entidade de acolhimento e o ISEP, habitualmente acompanhado de um acordo de confidencialidade. Este protocolo salvaguarda os objetivos científicos e pedagógicos da unidade curricular e acautela eventuais questões de confidencialidade da entidade de acolhimento. O modelo está disponível no portal do ISEP (pesquise por «Protocolo_colab_Trab_Estag_estud_Mest»). Depois de assinado pelas restantes partes, sendo aceite assinatura digital, deve ser enviado por e-mail para a Secretaria do DEI (<a href='mailto:mlsb@isep.ipp.pt'>mlsb@isep.ipp.pt</a>)." },
+      { k: "Protocolo de colaboração", v: "Quando o trabalho decorre em contexto empresarial é suportado por um protocolo de colaboração entre a entidade de acolhimento e o ISEP, habitualmente acompanhado de um acordo de confidencialidade. Este protocolo salvaguarda os objetivos científicos e pedagógicos da unidade curricular e acautela eventuais questões de confidencialidade da entidade de acolhimento. O modelo está disponível no portal do ISEP (pesquise por «Protocolo_colab_Trab_Estag_estud_Mest»). Depois de assinado pelas restantes partes, sendo aceite assinatura digital, deve ser enviado por e-mail para a Secretaria do DEI." },
       { k: "Confidencialidade", v: "Se o trabalho envolver informação sensível da organização, pode ser pedida confidencialidade por um período máximo de três anos. O pedido é feito no ato de requisição de provas e é validado e justificado pelo júri, ficando registado em ata." },
       { k: "Estágios", v: "O trabalho final pode assumir a forma de estágio de natureza profissional com relatório. Mesmo nesse formato não pode consistir em tarefas profissionais de rotina: tem de partir de um problema concreto, com objetivos mensuráveis, apresentar algum grau de inovação e estar enquadrado no estado da arte. É também possível o trabalho decorrer na empresa onde o estudante já trabalha, desde que original e especialmente realizado para este fim." },
       { k: "Calendário", v: "As datas concretas são definidas no início de cada ano letivo. A título indicativo, o trabalho tem início até 31 de outubro e conclui-se entre 15 de junho e 31 de outubro do ano seguinte (datas indicativas). As propostas devem estar aprovadas a tempo da candidatura e da formalização, o que, em regra, aponta para final de setembro. As instituições e docentes começam tipicamente a submeter temas no início de julho." },
@@ -459,17 +464,6 @@ window.MEI_PT = {
   },
 
   faqGroups: [
-    {
-      "title": "O curso em geral",
-      "note": "<p><b>Antes de colocar uma questão.</b> Leia com atenção estas Perguntas Frequentes: a maioria das dúvidas já tem aqui resposta. Se a dúvida persistir, encaminhe-a para o contacto certo, usando a tabela de <b>Contactos úteis</b>. Por exemplo, matrículas, inscrições, propinas, creditações e alterações de inscrição são dos Serviços Académicos, e turmas e horários das respetivas equipas. Questões dirigidas ao contacto errado poderão não ter resposta.</p><p>Se, depois de ler a FAQ, a questão for efetivamente para a Direção do curso (<a href='mailto:mei@isep.ipp.pt'>mei@isep.ipp.pt</a>), <b>formule-a com contexto</b>: indique o que já leu ou consultou e identifique claramente qual é a informação em falta ou o ponto que ficou por esclarecer. Questões mal formuladas, sem contexto, ou que deveriam ter sido dirigidas a outro contacto poderão ficar sem resposta.</p>",
-      "items": [
-        {
-          "id": "como-funciona-a-unidade-curricular-opcional",
-          "q": "Como funciona a unidade curricular opcional?",
-          "a": "<p>Cada ramo tem uma lista própria de opcionais no 1.º semestre do 2.º ano, com 7,5 ECTS, normalmente composta por unidades curriculares nucleares dos outros ramos (por exemplo Arquitetura de Software, Aprendizagem Automática, Redes de Computadores, Mineração de Dados ou Qualidade de Software). Consulte a lista do seu ramo.</p>"
-        }
-      ]
-    },
     {
       "title": "Candidatura e admissão",
       "note": "<b>Concurso local.</b> O acesso aos cursos de mestrado do ISEP faz-se por concurso local, organizado anualmente em três fases (a primeira, em regra, entre maio e junho) e precedido da publicação do respetivo Edital, que define prazos, procedimentos, vagas e critérios de seriação. Este assunto é da responsabilidade da Divisão Académica (Serviços Académicos).",
@@ -542,7 +536,7 @@ window.MEI_PT = {
       ]
     },
     {
-      "title": "Matrícula, inscrições, turmas e horários",
+      "title": "Matrícula e inscrições",
       "items": [
         {
           "id": "fui-admitido-ao-mei-o-que-devo",
@@ -555,29 +549,9 @@ window.MEI_PT = {
           "a": "<p>Poderá ser possível, com algumas restrições. Contacte os Serviços Académicos (<a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a>) e solicite a alteração. A inscrição em unidades curriculares é da responsabilidade exclusiva dos serviços académicos.</p>"
         },
         {
-          "id": "estou-inscrito-nas-ucs-mas-ainda-nao",
-          "q": "Estou inscrito nas UCs mas ainda não estou colocado em turma.",
-          "a": "<p>Imediatamente antes do início do semestre, a colocação em turma é feita automaticamente. Após o início do semestre, envie e-mail para <a href='mailto:turmasmesdei@isep.ipp.pt'>turmasmesdei@isep.ipp.pt</a> a solicitar colocação nas unidades curriculares em que está inscrito.</p>"
-        },
-        {
-          "id": "estou-inscrito-mas-o-meu-horario-nao",
-          "q": "Estou inscrito mas o meu horário não aparece no Portal. O que falta?",
-          "a": "<p>Falta a colocação em turma nas várias unidades curriculares. Envie e-mail para <a href='mailto:turmasmesdei@isep.ipp.pt'>turmasmesdei@isep.ipp.pt</a>.</p>"
-        },
-        {
-          "id": "pretendo-mudar-de-turma-ou-horario-como",
-          "q": "Pretendo mudar de turma ou horário. Como devo proceder?",
-          "a": "<p>Envie e-mail para <a href='mailto:turmasmesdei@isep.ipp.pt'>turmasmesdei@isep.ipp.pt</a> a solicitar a alteração de turma.</p>"
-        },
-        {
-          "id": "tenho-um-horario-incompativel-o-que-posso",
-          "q": "Tenho um horário incompatível. O que posso fazer?",
-          "a": "<p>Pode solicitar alteração de horário, mas pondere também se algumas unidades curriculares podem ter um regime de frequência diferente, diurno ou noturno. Será virtualmente impossível ter um horário compatível se pretender frequentar todas em regime noturno e tiver mais de 4 unidades curriculares num semestre.</p>"
-        },
-        {
-          "id": "tenho-um-assunto-relativo-a-uma-uc",
-          "q": "Tenho um assunto relativo a uma UC de outro curso. Quem contacto?",
-          "a": "<ul><li><b>Licenciatura em Engenharia Informática:</b> <a href='mailto:turmaslicdei@isep.ipp.pt'>turmaslicdei@isep.ipp.pt</a></li><li><b>Engenharia Eletrotécnica e de Computadores:</b> <a href='mailto:turmasdee@isep.ipp.pt'>turmasdee@isep.ipp.pt</a></li><li><b>Engenharia Mecânica:</b> <a href='mailto:turmasdem@isep.ipp.pt'>turmasdem@isep.ipp.pt</a></li><li><b>Engenharia de Sistemas:</b> <a href='mailto:turmasdma@isep.ipp.pt'>turmasdma@isep.ipp.pt</a></li></ul>"
+          "id": "consigo-conciliar-o-horario-com-o-trabalho",
+          "q": "Consigo conciliar o horário com o trabalho?",
+          "a": "<p>O MEI funciona em regime pós-laboral, com aulas a partir das 18:10. Ainda assim, algumas unidades curriculares podem ter turnos em horário diurno, pelo que a compatibilidade depende do número de unidades em que se inscreve e dos turnos disponíveis em cada uma. Será virtualmente impossível frequentar tudo em regime noturno se se inscrever em mais de quatro unidades curriculares num semestre.</p><p>Se trabalha, pondere o regime de tempo parcial, que distribui o curso por mais anos letivos com uma carga menor por semestre.</p>"
         },
         {
           "id": "quero-mudar-de-regime-de-inscricao-integral",
@@ -592,7 +566,7 @@ window.MEI_PT = {
         {
           "id": "tenho-uma-duvida-relacionada-com-o-mei",
           "q": "Tenho uma dúvida relacionada com o MEI. A quem a coloco?",
-          "a": "<p>Envie e-mail para <a href='mailto:mei@isep.ipp.pt'>mei@isep.ipp.pt</a>. Questões que devam ser endereçadas aos serviços académicos, ou a outro dos contactos indicados acima, poderão não ter resposta. Em períodos de maior volume, a resposta pode não ser imediata.</p>"
+          "a": "<p>Envie e-mail para <a href='mailto:mei@isep.ipp.pt'>mei@isep.ipp.pt</a>. Matrícula, inscrição, propinas e creditações são tratadas pelos Serviços Académicos (<a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a>). Em períodos de maior volume, a resposta pode não ser imediata.</p>"
         }
       ]
     },
@@ -715,212 +689,24 @@ window.MEI_PT = {
           "a": "<p>O principal regulamento aplicável é o publicado em <a href='https://files.dre.pt/2s/2019/07/141000000/0009400103.pdf' target='_blank' rel='noopener'>Diário da República</a>. Para questões sobre o processo, custos ou submissão, contacte os Serviços Académicos (<a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a>).</p>"
         }
       ]
-    },
-    {
-      "title": "Avaliação e exames",
-      "items": [
-        {
-          "id": "onde-encontro-os-metodos-de-avaliacao-de",
-          "q": "Onde encontro os métodos de avaliação de cada UC?",
-          "a": "<p>Nas Fichas de Unidade Curricular (FUC), que descrevem programa, objetivos e métodos de avaliação e são disponibilizadas antes do início das atividades letivas do semestre.</p>"
-        },
-        {
-          "id": "que-epocas-de-exame-existem",
-          "q": "Que épocas de exame existem?",
-          "a": "<p>Época normal e época de recurso em cada período, e ainda uma época especial definida no calendário escolar. Estudantes com estatutos especiais podem realizar exames fora destas épocas, nos termos do respetivo regulamento.</p>"
-        },
-        {
-          "id": "tenho-de-me-inscrever-nos-exames",
-          "q": "Tenho de me inscrever nos exames?",
-          "a": "<p>Na época normal a inscrição é automática e gratuita para quem reúna condições de acesso. Nas restantes épocas a inscrição é obrigatória, sujeita a taxa, e deve ser feita no Portal até 24 horas antes da data do exame. Não há anulação de inscrições nem devolução de quantias pagas.</p>"
-        },
-        {
-          "id": "quem-pode-requerer-epoca-especial",
-          "q": "Quem pode requerer época especial?",
-          "a": "<p>Estudantes a quem faltem, para terminar o ciclo de estudos, até duas unidades curriculares anuais ou equivalente (uma unidade anual equivale a duas semestrais ou três trimestrais). Sem limite quantitativo para estudantes em risco de prescrição. Estudantes estrangeiros em mobilidade no ISEP podem requerer até duas unidades curriculares.</p>"
-        },
-        {
-          "id": "qual-e-a-regra-de-assiduidade",
-          "q": "Qual é a regra de assiduidade?",
-          "a": "<p>Estudantes sem estatutos especiais não podem faltar a mais de um terço das aulas teórico-práticas, laboratoriais e de campo de cada tipo. O incumprimento resulta em NF (Não Frequência), que impede o acesso à avaliação.</p>"
-        },
-        {
-          "id": "o-que-significam-nf-sm-nc-ft",
-          "q": "O que significam NF, SM, NC, FT e AN?",
-          "a": "<ul><li><b>NF, Não Frequência.</b> Não cumpriu os critérios mínimos de assiduidade.</li><li><b>SM, Sem mínimos.</b> Não atingiu os mínimos de uma componente não repetível. Não pode realizar exames dessa unidade curricular em épocas futuras nesse ano letivo.</li><li><b>NC, Não classificado.</b> Não atingiu o mínimo de uma componente repetível. Pode realizar exames em épocas futuras nesse ano letivo.</li><li><b>FT, Faltou.</b> Não compareceu; conta como zero para efeitos de cálculo.</li><li><b>AN, Anulado.</b> Elemento anulado por fraude académica; qualquer cálculo que envolva AN resulta em AN.</li></ul>"
-        },
-        {
-          "id": "como-sao-arredondadas-as-classificacoes",
-          "q": "Como são arredondadas as classificações?",
-          "a": "<p>Às unidades nas classificações finais e às centésimas nas parcelares, arredondando para cima a partir de 5. A aprovação exige classificação final igual ou superior a 10.</p>"
-        },
-        {
-          "id": "quando-sao-publicadas-as-classificacoes",
-          "q": "Quando são publicadas as classificações?",
-          "a": "<p>Exclusivamente no portal do ISEP. As classificações provisórias devem ser publicadas até 8 dias úteis após a prova, com pelo menos 72 horas de antecedência face à prova de época normal e, no caso das de época normal, face à prova de recurso.</p>"
-        },
-        {
-          "id": "as-datas-de-avaliacao-podem-mudar",
-          "q": "As datas de avaliação podem mudar?",
-          "a": "<p>Alterações a provas de avaliação devem ser comunicadas com um mínimo de 48 horas de antecedência, via anúncios do Moodle, após validação do Diretor de Curso. Alterações extraordinárias de datas de exames exigem um mínimo de 72 horas.</p>"
-        }
-      ]
-    },
-    {
-      "title": "Projeto/Dissertação (PREPD e DIMEI)",
-      "note": "<b>Propostas de empresas e instituições.</b> As propostas de dissertação, projeto e estágio são submetidas no Portal de Projetos do DEI. Se representa uma empresa ou instituição, veja a página de <a href='cooperacao.html'>Parcerias</a>, que reúne esta e outras formas de trabalhar com o mestrado.",
-      "items": [
-        {
-          "id": "o-que-sao-prepd-e-dimei",
-          "q": "O que são PREPD e DIMEI?",
-          "a": "<p><b>PREPD</b> (Preparação para Dissertação) é a unidade curricular onde se define e prepara o trabalho de dissertação. <b>DIMEI</b> (Dissertação) é o trabalho de desenvolvimento que irá conduzir à dissertação final, sujeita a provas públicas.</p><p>PREPD e DIMEI são unidades curriculares distintas e sem ligação formal entre si; é, no entanto, altamente recomendável que sejam feitas em sequência e sobre o mesmo projeto ou tema. Todo o processo, da proposta à formalização, decorre na plataforma <a href='https://projetos.dei.isep.ipp.pt' target='_blank' rel='noopener'>projetos.dei.isep.ipp.pt</a>.</p>"
-        },
-        {
-          "id": "como-se-organiza-a-execucao-ao-longo",
-          "q": "Como se organiza a execução ao longo do ano?",
-          "a": "<p>O trabalho é desenvolvido, em contexto académico ou empresarial, pelos estudantes que reúnem condições para se inscrever no 2.º ano do MEI, ou seja, os estudantes inscritos no 1.º ano que tenham concluído 35,5 ECTS ou mais. Divide-se em dois semestres:</p><ul><li><b>PREPD (1.º semestre).</b> Preparação teórica do trabalho, com análise do problema e do estado da arte, na unidade curricular \"Preparação da Dissertação\". Decorre em tempo parcial, normalmente em paralelo com outras unidades curriculares, e habitualmente nas instalações do ISEP. Não se espera grande presença na entidade de acolhimento, mas devem realizar-se reuniões periódicas entre estudante, orientador e empresa.</li><li><b>DIMEI (2.º semestre).</b> Realização da dissertação propriamente dita, com produção das contribuições, em dedicação exclusiva, sem outras unidades curriculares ou tarefas em paralelo. Quando o trabalho decorre em contexto empresarial, é esperado que seja realizado em boa parte nas instalações da empresa.</li></ul>"
-        },
-        {
-          "id": "como-decorre-o-processo-da-proposta-a",
-          "q": "Como decorre o processo, da proposta à formalização?",
-          "a": "<p>Em três fases, todas na plataforma de projetos:</p><ol><li><b>Submissão e validação.</b> O proponente (empresa, instituição ou docente) submete a proposta, validada à entrada quanto à qualidade, à adequação do trabalho e às condições para o seu desenvolvimento. As propostas aceites são publicadas.</li><li><b>Divulgação e atribuição.</b> As propostas publicadas são divulgadas aos estudantes, que se candidatam às que pretendem. A plataforma mostra ao proponente os candidatos; estudante e proponente devem estabelecer contacto direto para aferir a adequação entre candidato e projeto. A atribuição só fica fechada com o acordo de ambas as partes: na plataforma, o estudante aceita o projeto e o proponente aceita o estudante.</li><li><b>Formalização.</b> O estudante detalha o problema e o plano de trabalho e convida a equipa de orientação, que inclui obrigatoriamente um orientador do ISEP. Após validação e aprovação, o trabalho fica formalizado.</li></ol><p><b>Os estudantes são incentivados a ir além do registo de interesse na plataforma e a contactar diretamente os proponentes; qualquer aproximação por parte dos proponentes é igualmente bem-vinda.</b></p>"
-        },
-        {
-          "id": "onde-e-como-se-submete-uma-proposta",
-          "q": "Onde e como se submete uma proposta?",
-          "a": "<p>As entidades que pretendam acolher estudantes registam-se na plataforma e devem dispor de recursos humanos e técnicos para apoiar o estudante na área da informática. A submissão é feita exclusivamente em <a href='https://projetos.dei.isep.ipp.pt/home' target='_blank' rel='noopener'>projetos.dei.isep.ipp.pt</a>, selecionando o ano letivo e a unidade curricular «MEI — Projeto Tese» e preenchendo a informação pedida: título, problema e objetivos.</p><p>Empresas e instituições encontram na página de <a href='cooperacao.html'>Parcerias</a> as várias formas de trabalhar com o mestrado, incluindo esta.</p>"
-        },
-        {
-          "id": "o-que-se-espera-de-uma-boa",
-          "q": "O que se espera de uma boa proposta?",
-          "a": "<ul><li>Um problema concreto, com relevância técnica e/ou de negócio, e objetivos mensuráveis.</li><li>Componente clara de Engenharia Informática: metodologia, tecnologias e contribuições.</li><li>Plano de trabalho provisório, com tarefas e cronograma para os dois semestres.</li><li>Enquadramento no estado da arte e uma metodologia de avaliação de desempenho definida.</li><li>Responsável na entidade de acolhimento e condições de acolhimento e de acompanhamento claras, quando aplicável.</li></ul><p><b>Pressupõe-se que está identificado um problema que se pretende resolver através de um projeto de engenharia com algum grau de inovação. Tarefas profissionais de rotina não são adequadas a uma dissertação de mestrado. A área é a de Engenharia Informática e áreas relacionadas.</b></p>"
-        },
-        {
-          "id": "que-temas-podem-ser-propostos",
-          "q": "Que temas podem ser propostos?",
-          "a": "<p>A título indicativo, e sem pretensão de esgotar as possibilidades:</p><ul><li>IA generativa aplicada a problemas de negócio (assistentes, automação, extração de informação).</li><li>Engenharia de software para sistemas baseados em IA (qualidade de modelos, LLMOps e testes).</li><li>Arquiteturas cloud-native, observabilidade e otimização de microserviços.</li><li>Cibersegurança aplicacional, proteção de dados e privacidade desde a conceção.</li><li>Plataformas de dados, MLOps e suporte à decisão.</li><li>Edge computing e IoT em contextos industriais ou de cidades inteligentes.</li><li>Modernização de sistemas legados e integração de sistemas de informação.</li><li>Acessibilidade, UX adaptativa e interfaces baseadas em dados.</li><li>Blockchain para rastreabilidade, identidade digital ou contratos inteligentes.</li><li>Realidade aumentada ou virtual aplicada à formação, à manutenção ou a outros fins.</li></ul><p>O catálogo completo de dissertações já concluídas está disponível em <a href='https://recipp.ipp.pt' target='_blank' rel='noopener'>recipp.ipp.pt</a>.</p>"
-        },
-        {
-          "id": "qual-e-o-calendario-tipico",
-          "q": "Qual é o calendário típico?",
-          "a": "<p>As datas concretas são definidas no início de cada ano letivo. A título indicativo, o trabalho tem início até 31 de outubro e conclui-se entre 15 de junho e 31 de outubro do ano seguinte (datas indicativas). As propostas devem estar aprovadas a tempo da candidatura e da formalização, o que, em regra, aponta para final de setembro.</p>"
-        },
-        {
-          "id": "e-preciso-ter-orientador-do-isep-logo",
-          "q": "É preciso ter orientador do ISEP logo na proposta?",
-          "a": "<p>Não. A proposta pode ser submetida sem orientador confirmado. O orientador do ISEP é definido na fase de formalização, ou seja, após a candidatura ser aceite, pelo que pode ser articulado posteriormente. É, no entanto, obrigatório para concluir a formalização.</p>"
-        },
-        {
-          "id": "posso-propor-o-meu-proprio-tema",
-          "q": "Posso propor o meu próprio tema?",
-          "a": "<p>Sim. Além das propostas de empresas, instituições e docentes, pode propor o seu próprio tema. A proposta tem de reunir as condições habituais: problema concreto, componente de Engenharia Informática e plano de trabalho. Precisa de encontrar um docente do ISEP que aceite orientá-lo e submeter a proposta na plataforma, através do docente, onde passa pelo processo de aprovação.</p>"
-        },
-        {
-          "id": "que-formatos-pode-assumir-o-trabalho-final",
-          "q": "Que formatos pode assumir o trabalho final?",
-          "a": "<p>Três: dissertação de natureza técnico-científica, trabalho de projeto de âmbito aplicado, ou estágio de natureza profissional com relatório final. Quando decorre em contexto empresarial, é suportado por protocolo de colaboração entre a instituição de acolhimento e o ISEP.</p><p>Em qualquer dos formatos, o trabalho deve reunir as condições habituais: problema concreto, componente de Engenharia Informática, plano de trabalho, e condições de acolhimento e acompanhamento claras.</p>"
-        },
-        {
-          "id": "posso-realizar-o-trabalho-final-na-empresa",
-          "q": "Posso realizar o trabalho final na empresa onde trabalho?",
-          "a": "<p>Sim. O trabalho final pode assumir a forma de projeto de âmbito aplicado ou de estágio de natureza profissional em contexto empresarial, suportado por um protocolo de colaboração entre a entidade de acolhimento e o ISEP. A proposta tem de reunir as condições habituais (problema concreto, componente de Engenharia Informática, plano de trabalho e condições de acolhimento e acompanhamento claras), ser submetida pela empresa e aprovada, e ter um orientador académico do ISEP.</p><p>Se o trabalho envolver informação sensível da empresa, pode ser pedida confidencialidade até um máximo de três anos. O trabalho tem, no entanto, de ser original e especialmente realizado para este fim.</p>"
-        },
-        {
-          "id": "vou-fazer-estagio-no-ambito-do-dimei",
-          "q": "Vou fazer estágio no âmbito do DIMEI. O que preciso de saber?",
-          "a": "<p>Mesmo na forma de estágio, o trabalho não pode consistir em tarefas profissionais de rotina: tem de partir de um problema concreto, com relevância técnica e/ou de negócio e objetivos mensuráveis, apresentar algum grau de inovação e estar enquadrado no estado da arte.</p><p>O estágio segue as regras do ISEP e decorre durante o 2.º semestre. Para salvaguardar os objetivos científicos e pedagógicos da unidade curricular e acautelar eventuais questões de confidencialidade da entidade de acolhimento, é necessário um protocolo de estágio, cujo modelo está disponível no portal do ISEP (pesquise por «Protocolo_colab_Trab_Estag_estud_Mest») e que é habitualmente acompanhado de um acordo de confidencialidade. Depois de assinado pelas restantes partes, e é aceite assinatura digital, deve ser enviado por e-mail para a Secretaria do DEI (<a href='mailto:mlsb@isep.ipp.pt'>mlsb@isep.ipp.pt</a>).</p>"
-        },
-        {
-          "id": "quando-me-posso-inscrever-na-dissertacao",
-          "q": "Quando me posso inscrever na dissertação?",
-          "a": "<p>Há dois momentos a distinguir. Para se inscrever no 2.º ano, onde decorre o PREPD, basta reunir as condições de passagem ao 2.º ano, ou seja, ter concluído 35,5 ECTS ou mais do 1.º ano. Para a inscrição na dissertação propriamente dita (DIMEI), no projeto ou no estágio, é necessário ter concluído, no mínimo, 40 ECTS do curso, nos termos do artigo 14.º, n.º 5, do Regulamento Geral de Mestrados do ISEP.</p>"
-        },
-        {
-          "id": "quem-pode-orientar",
-          "q": "Quem pode orientar?",
-          "a": "<p>A equipa de orientação tem obrigatoriamente de incluir um docente ou investigador do ISEP, podendo existir coorientador. Só podem orientar os detentores do grau de Doutor ou do título de Especialista de reconhecida experiência e competência profissional. Nos estágios ou projetos em empresa pode ainda existir a figura de supervisor, para os responsáveis técnicos da entidade de acolhimento. Aplica-se o disposto no artigo 15.º do Regulamento Geral de Mestrados do ISEP.</p>"
-        },
-        {
-          "id": "quem-aprova-os-temas-e-os-prazos",
-          "q": "Quem aprova os temas e os prazos?",
-          "a": "<p>Compete ao Diretor de Curso aprovar os temas, através da plataforma de projetos, e definir os prazos de entrega e de discussão pública, de acordo com o calendário escolar aprovado. Os temas de PREPD e DIMEI são tipicamente submetidos pelos docentes a partir do início de julho.</p>"
-        },
-        {
-          "id": "existe-um-template-para-a-tese",
-          "q": "Existe um template para a tese?",
-          "a": "<p>Sim. Os templates da tese são disponibilizados na unidade curricular de PREPD, em duas versões: Word e LaTeX. O template em LaTeX está disponível no Overleaf, como <a href='https://www.overleaf.com/latex/templates/dei-slash-isep-tmdei-thesis-template/dtvkwwtwzccc' target='_blank' rel='noopener'>DEI/ISEP TMDEI thesis template</a>, e pode ser copiado diretamente para a sua conta. Em qualquer dos casos aplicam-se as normas de capa, contracapa e formatação previstas no Regulamento.</p>"
-        },
-        {
-          "id": "como-e-feita-a-entrega",
-          "q": "Como é feita a entrega?",
-          "a": "<p>Exclusivamente em formato digital, submetendo o exemplar no portal do ISEP juntamente com o requerimento de admissão a provas dirigido ao Presidente do ISEP, que é feito automaticamente com a submissão do documento. Aplicam-se as normas de capa, contracapa e template do Regulamento, bem como a declaração de integridade obrigatória.</p>"
-        },
-        {
-          "id": "posso-pedir-confidencialidade",
-          "q": "Posso pedir confidencialidade?",
-          "a": "<p>Sim, quando o trabalho envolve entidades empresariais, por um período máximo de três anos. O pedido é feito no ato de requisição de provas e tem de ser validado e justificado pelo júri, ficando registado na ata.</p>"
-        },
-        {
-          "id": "o-que-acontece-se-nao-cumprir-o",
-          "q": "O que acontece se não cumprir o prazo?",
-          "a": "<p>A discussão pública deve estar concluída até à data fixada no calendário escolar do ISEP. Exceções podem ser autorizadas pelo Presidente do ISEP, ouvido o Diretor de Curso, mediante requerimento. O incumprimento implica nova inscrição no curso ou unidade curricular e pagamento da propina correspondente.</p>"
-        },
-        {
-          "id": "como-e-composto-o-juri",
-          "q": "Como é composto o júri?",
-          "a": "<p>Três a cinco elementos: o Diretor de Curso, que preside e pode delegar num professor doutorado da área, e no mínimo dois vogais doutorados ou especialistas, peritos no domínio do trabalho, podendo um deles ser o orientador ou coorientador.</p>"
-        },
-        {
-          "id": "como-decorrem-as-provas-publicas",
-          "q": "Como decorrem as provas públicas?",
-          "a": "<p>Em sessão pública, com duração máxima de 60 minutos: até 20 minutos de apresentação pelo candidato e até 40 minutos de discussão, repartidos igualmente entre júri e candidato. A presença do candidato é obrigatoriamente presencial; um vogal externo pode participar por videoconferência. A prova exige a presença da totalidade do júri, sob pena de reagendamento. Pode decorrer noutra língua oficial da UE, se aceite pelo estudante e por todos os membros do júri.</p>"
-        },
-        {
-          "id": "como-e-atribuida-a-classificacao-da-defesa",
-          "q": "Como é atribuída a classificação da defesa?",
-          "a": "<p>Numa escala inteira de 0 a 20, resultante da média aritmética simples, arredondada à unidade, das classificações atribuídas individualmente por cada membro do júri, após votação nominal fundamentada sem abstenções.</p>"
-        }
-      ]
-    },
-    {
-      "title": "Conclusão e classificação final",
-      "items": [
-        {
-          "id": "quando-e-conferido-o-grau-de-mestre",
-          "q": "Quando é conferido o grau de Mestre?",
-          "a": "<p>A quem obtenha a totalidade dos 120 ECTS do plano de estudos e aprovação no ato público de discussão do trabalho final.</p>"
-        },
-        {
-          "id": "como-e-calculada-a-classificacao-final",
-          "q": "Como é calculada a classificação final?",
-          "a": "<p>Média aritmética ponderada das classificações das unidades curriculares e do ato público de discussão, tendo como fator de ponderação os ECTS de cada unidade curricular e do trabalho final. É calculada até às centésimas e arredondada às unidades, numa escala inteira de 10 a 20, com equivalente na escala europeia de comparabilidade.</p>"
-        }
-      ]
-    }
-  ],
+    }  ],
 
   faqContacts: [
-    { "topic": "Dúvidas sobre o curso, PEI, temas de dissertação", "email": "mei@isep.ipp.pt" },
-    { "topic": "Matrículas, inscrições, propinas, regime de inscrição", "email": "info-sa@isep.ipp.pt" },
-    { "topic": "Turmas e horários (UCs do MEI)", "email": "turmasmesdei@isep.ipp.pt" },
-    { "topic": "Turmas e horários (LEI)", "email": "turmaslicdei@isep.ipp.pt" },
-    { "topic": "Protocolos de estágio (Secretaria do DEI)", "email": "mlsb@isep.ipp.pt" }
+    { "topic": "Dúvidas sobre o curso, candidatura e PEI", "email": "mei@isep.ipp.pt" },
+    { "topic": "Matrículas, inscrições, propinas, creditações", "email": "info-sa@isep.ipp.pt" }
   ],
 
   /* Sites and platforms, kept apart from the e-mail contacts above. */
   faqLinks: [
     { "topic": "Candidaturas e reclamações", "label": "www.isep.ipp.pt/mestrados", "href": "https://www.isep.ipp.pt/mestrados" },
     { "topic": "Resultados do concurso", "label": "portal.isep.ipp.pt", "href": "https://portal.isep.ipp.pt" },
-    { "topic": "Propostas de dissertação, projeto e estágio", "label": "projetos.dei.isep.ipp.pt", "href": "https://projetos.dei.isep.ipp.pt/home" },
     { "topic": "Divisão Académica (Mestrados)", "label": "Serviços Académicos", "href": "https://www.isep.ipp.pt/Page/ViewPage/divisao_academica_mest" }
   ],
 
   faqSources: [
     "Edital PRES-EDT003/2026, Concurso de Acesso aos Cursos de Mestrado, ano letivo 2026/2027 (ISEP, 29 mai 2026)",
     "Regulamento Geral de Mestrados do ISEP (Diário da República, 2.ª série, n.º 184, 21 set 2023)",
-    "Regulamento de Avaliação do ISEP, Regulamento n.º 1024/2021 (Diário da República, 2.ª série, n.º 249, 27 dez 2021)",
     "Despacho n.º 11560/2022, plano de estudos do Mestrado em Engenharia Informática (Diário da República, 2.ª série, n.º 189, 29 set 2022)",
-    "Despacho IPP/P-098/2008, Mestrados, cálculo da média final",
     "Regulamento de Reconhecimento e Creditação/Certificação de Competências do P.PORTO (Diário da República, 2.ª série, 2019)",
     "Divisão Académica do ISEP, página \"Acesso a Mestrados\" (<a href='https://www.isep.ipp.pt/Page/ViewPage/divisao_academica_mest' target='_blank' rel='noopener'>isep.ipp.pt</a>), atualizada em 02/06/2026"
   ],
@@ -932,8 +718,7 @@ window.MEI_PT = {
       { name: "Luís Nogueira", role: "Subdiretor", email: "lmn@isep.ipp.pt" }
     ],
     info: "mei@isep.ipp.pt",
-    academic: "info-sa@isep.ipp.pt",
-    classes: "turmasmesdei@isep.ipp.pt"
+    academic: "info-sa@isep.ipp.pt"
   },
 
   fifth: "O programa contempla ainda a especialização em Sistemas de Informação e Conhecimento, dedicada à modelação de informação, à gestão do conhecimento e aos sistemas de apoio à decisão nas organizações. O respetivo plano curricular detalhado está disponível na página oficial do programa.",

@@ -8,13 +8,17 @@ window.MEI_EN = {
   /* ---- Static page chrome (see i18n.js). Mirrors content.js. ---- */
   ui: {
     langName: "English",
+    anchor: {
+      copy: "Copy link to this section",
+      copied: "Link copied"
+    },
     meta: {
       home: "MEI · Master in Informatics Engineering · ISEP",
       homeDesc: "Master in Informatics Engineering at ISEP, Technical University of Porto. Five specialization areas, 120 ECTS, evening schedule, and a final project carried out in industry or in a research centre.",
       cand: "Admissions · MEI · ISEP",
       candDesc: "How to apply to the Master in Informatics Engineering at ISEP: documentation, application rounds, and the Individual Study Plan.",
       faq: "FAQ · MEI · ISEP",
-      faqDesc: "Frequently asked questions about the Master in Informatics Engineering at ISEP: enrolment, timetables, Individual Study Plan, assessment, and the final project.",
+      faqDesc: "Frequently asked questions about applying to and enrolling in the Master in Informatics Engineering at ISEP: admission, tuition fees, registration and enrolment, the Individual Study Plan and credit recognition.",
       coop: "Partnerships · MEI · ISEP",
       coopDesc: "How companies and institutions can partner with the Master in Informatics Engineering at ISEP: dissertation proposals, course-unit projects, guest lectures, summer internships and extracurricular activities."
     },
@@ -140,9 +144,10 @@ window.MEI_EN = {
     faq: {
       crumbHome: "Home",
       crumb: "FAQ",
-      eyebrow: "New students",
+      eyebrow: "Applicants and new students",
       h1: "Frequently asked questions",
-      intro: "The most requested answers on enrolment, timetables, the Individual Study Plan, assessment and the final project.",
+      intro: "The answers most often needed by those applying to the MEI and by those already admitted and completing their registration: admission, tuition fees, registration and enrolment, the Individual Study Plan and credit recognition.",
+      moodleNote: "<p><b>Already an MEI student?</b> This page covers applying to the programme and getting enrolled. The full FAQ for enrolled students — classes, timetables, assessment, the dissertation and the rest of academic life — is in the MEI area on <a href='https://moodle.isep.ipp.pt' target='_blank' rel='noopener'>ISEP's Moodle</a>. Sign in with your ISEP credentials to read it.</p>",
       contactsEyebrow: "Useful contacts",
       contactsH2: "The right contact for each subject",
       thAssunto: "Subject",
@@ -450,7 +455,7 @@ window.MEI_EN = {
     practical: [
       { k: "Who supervises", v: "The supervision team must include a faculty member or researcher of ISEP holding a doctorate or the title of Specialist; a co-supervisor may also be appointed. In work carried out in a company there is also the figure of supervisor, for the host organization's technical lead, who follows the work on the organization's side without academic requirements." },
       { k: "Where the work takes place", v: "In the first semester (in the PREPD course unit) the work is mostly analysis and state of the art; it is carried out part-time and usually on ISEP premises; no substantial presence at the host organization is expected, but periodic meetings between student, supervisor and company should take place. In the second semester (in the DIMEI course unit), full-time, the work is expected to be carried out largely on the company's premises." },
-      { k: "Collaboration protocol", v: "When the work takes place in a business setting it is supported by a collaboration protocol between the host organization and ISEP, usually accompanied by a confidentiality agreement. The protocol safeguards the scientific and pedagogical objectives of the course unit and addresses any confidentiality concerns of the host organization. The template is available on the ISEP portal (search for “Protocolo_colab_Trab_Estag_estud_Mest”). Once signed by the other parties, and digital signatures are accepted, it should be emailed to the DEI Secretariat (<a href='mailto:mlsb@isep.ipp.pt'>mlsb@isep.ipp.pt</a>)." },
+      { k: "Collaboration protocol", v: "When the work takes place in a business setting it is supported by a collaboration protocol between the host organization and ISEP, usually accompanied by a confidentiality agreement. The protocol safeguards the scientific and pedagogical objectives of the course unit and addresses any confidentiality concerns of the host organization. The template is available on the ISEP portal (search for “Protocolo_colab_Trab_Estag_estud_Mest”). Once signed by the other parties, and digital signatures are accepted, it should be emailed to the DEI Secretariat." },
       { k: "Confidentiality", v: "If the work involves sensitive information belonging to the organization, confidentiality may be requested for a maximum period of three years. The request is made when applying for the public defence and is validated and justified by the jury, being recorded in the minutes." },
       { k: "Internships", v: "The final project may take the form of a professional internship with a report. Even in that format it cannot consist of routine professional tasks: it must start from a concrete problem, with measurable objectives, show some degree of innovation and be grounded in the state of the art. The work may also take place at the company where the student already works, provided it is original and carried out specifically for this purpose." },
       { k: "Calendar", v: "The exact dates are set at the start of each academic year. Indicatively, the work begins by 31 October and is concluded between 15 June and 31 October of the following year (indicative dates). Proposals must be approved in time for the application and formalisation stages, which as a rule points to the end of September. Institutions and faculty typically begin submitting topics in early July." },
@@ -461,17 +466,6 @@ window.MEI_EN = {
   },
 
   faqGroups: [
-    {
-      "title": "The programme in general",
-      "note": "<p><b>Before asking a question.</b> Read these Frequently Asked Questions carefully: most queries are already answered here. If the doubt persists, direct it to the right contact, using the <b>Useful contacts</b> table. Registration, enrolment, tuition fees, credit recognition and changes of enrolment, for instance, are matters for the Academic Services, and classes and timetables for the respective teams. Questions sent to the wrong contact may go unanswered.</p><p>If, after reading the FAQ, the question really is one for the programme direction (<a href='mailto:mei@isep.ipp.pt'>mei@isep.ipp.pt</a>), <b>frame it with context</b>: say what you have already read or consulted and identify clearly what information is missing or which point remains unclear. Questions that are poorly framed, lacking context, or that should have been addressed to another contact may go unanswered.</p>",
-      "items": [
-        {
-          "id": "como-funciona-a-unidade-curricular-opcional",
-          "q": "How does the elective course unit work?",
-          "a": "<p>Each branch has its own list of electives in semester 1 of year 2, worth 7.5 ECTS, normally made up of core course units from the other branches (for example Software Architecture, Machine Learning, Computer Networks, Data Mining or Software Quality). Consult the list for your branch.</p>"
-        }
-      ]
-    },
     {
       "title": "Application and admission",
       "note": "<b>Local competition.</b> Access to ISEP's master's programmes is through a local competition, organised annually in three rounds (the first, as a rule, between May and June) and preceded by publication of the corresponding official call, which sets deadlines, procedures, places and ranking criteria. This matter falls under the responsibility of the Academic Division (Academic Services).",
@@ -544,7 +538,7 @@ window.MEI_EN = {
       ]
     },
     {
-      "title": "Registration, enrolment, classes and timetables",
+      "title": "Registration and enrolment",
       "items": [
         {
           "id": "fui-admitido-ao-mei-o-que-devo",
@@ -557,29 +551,9 @@ window.MEI_EN = {
           "a": "<p>It may be possible, with some restrictions. Contact the Academic Services (<a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a>) and request the change. Enrolment in course units is the exclusive responsibility of the academic services.</p>"
         },
         {
-          "id": "estou-inscrito-nas-ucs-mas-ainda-nao",
-          "q": "I am enrolled in the units but have not been assigned to a class.",
-          "a": "<p>Immediately before the semester begins, class assignment is carried out automatically. After the semester has begun, e-mail <a href='mailto:turmasmesdei@isep.ipp.pt'>turmasmesdei@isep.ipp.pt</a> requesting assignment in the units you are enrolled in.</p>"
-        },
-        {
-          "id": "estou-inscrito-mas-o-meu-horario-nao",
-          "q": "I am enrolled but my timetable does not appear on the Portal. What is missing?",
-          "a": "<p>Class assignment in the various course units is missing. E-mail <a href='mailto:turmasmesdei@isep.ipp.pt'>turmasmesdei@isep.ipp.pt</a>.</p>"
-        },
-        {
-          "id": "pretendo-mudar-de-turma-ou-horario-como",
-          "q": "I want to change class or timetable. How do I proceed?",
-          "a": "<p>E-mail <a href='mailto:turmasmesdei@isep.ipp.pt'>turmasmesdei@isep.ipp.pt</a> requesting the change of class.</p>"
-        },
-        {
-          "id": "tenho-um-horario-incompativel-o-que-posso",
-          "q": "I have an incompatible timetable. What can I do?",
-          "a": "<p>You may request a timetable change, but also consider whether some course units may be attended under a different regime, daytime or evening. It will be virtually impossible to obtain a compatible timetable if you intend to attend everything in the evening and have more than 4 course units in a semester.</p>"
-        },
-        {
-          "id": "tenho-um-assunto-relativo-a-uma-uc",
-          "q": "I have a matter concerning a course unit from another programme. Whom do I contact?",
-          "a": "<ul><li><b>Bachelor in Informatics Engineering:</b> <a href='mailto:turmaslicdei@isep.ipp.pt'>turmaslicdei@isep.ipp.pt</a></li><li><b>Electrical and Computer Engineering:</b> <a href='mailto:turmasdee@isep.ipp.pt'>turmasdee@isep.ipp.pt</a></li><li><b>Mechanical Engineering:</b> <a href='mailto:turmasdem@isep.ipp.pt'>turmasdem@isep.ipp.pt</a></li><li><b>Systems Engineering:</b> <a href='mailto:turmasdma@isep.ipp.pt'>turmasdma@isep.ipp.pt</a></li></ul>"
+          "id": "consigo-conciliar-o-horario-com-o-trabalho",
+          "q": "Can I fit the timetable around a job?",
+          "a": "<p>The MEI runs in the evening, with classes from 18:10 onwards. Even so, some course units may have daytime shifts, so how well it fits depends on how many units you enrol in and which shifts each one offers. Attending everything in the evening will be virtually impossible if you enrol in more than four course units in a semester.</p><p>If you work, consider the part-time regime, which spreads the programme over more academic years with a lighter load each semester.</p>"
         },
         {
           "id": "quero-mudar-de-regime-de-inscricao-integral",
@@ -594,7 +568,7 @@ window.MEI_EN = {
         {
           "id": "tenho-uma-duvida-relacionada-com-o-mei",
           "q": "I have a question about the MEI. Who do I ask?",
-          "a": "<p>Send an e-mail to <a href='mailto:mei@isep.ipp.pt'>mei@isep.ipp.pt</a>. Questions that should be addressed to the academic services, or to another of the contacts listed above, may go unanswered. At busier times, the reply may not be immediate.</p>"
+          "a": "<p>Send an e-mail to <a href='mailto:mei@isep.ipp.pt'>mei@isep.ipp.pt</a>. Registration, enrolment, tuition fees and credit recognition are handled by the Academic Services (<a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a>). At busier times, the reply may not be immediate.</p>"
         }
       ]
     },
@@ -717,212 +691,24 @@ window.MEI_EN = {
           "a": "<p>The main applicable regulation is the one published in the <a href='https://files.dre.pt/2s/2019/07/141000000/0009400103.pdf' target='_blank' rel='noopener'>Diário da República</a>. For questions on the process, costs or submission, contact the Academic Services (<a href='mailto:info-sa@isep.ipp.pt'>info-sa@isep.ipp.pt</a>).</p>"
         }
       ]
-    },
-    {
-      "title": "Assessment and examinations",
-      "items": [
-        {
-          "id": "onde-encontro-os-metodos-de-avaliacao-de",
-          "q": "Where do I find the assessment methods for each course unit?",
-          "a": "<p>In the Course Unit Records (FUC), which describe the syllabus, objectives and assessment methods and are made available before teaching activities begin each semester.</p>"
-        },
-        {
-          "id": "que-epocas-de-exame-existem",
-          "q": "Which examination periods exist?",
-          "a": "<p>A normal period and a resit period in each term, plus a special period defined in the academic calendar. Students with special status may sit examinations outside these periods, under the applicable regulation.</p>"
-        },
-        {
-          "id": "tenho-de-me-inscrever-nos-exames",
-          "q": "Do I have to register for examinations?",
-          "a": "<p>In the normal period registration is automatic and free for those meeting the access conditions. In the other periods registration is mandatory, subject to a fee, and must be made on the Portal up to 24 hours before the examination date. There is no cancellation of registrations and no refund of amounts paid.</p>"
-        },
-        {
-          "id": "quem-pode-requerer-epoca-especial",
-          "q": "Who may request the special period?",
-          "a": "<p>Students who have up to two annual course units or equivalent remaining to complete the programme (one annual unit equals two semester units or three term units). No quantitative limit applies to students at risk of registration lapse. Foreign students on mobility at ISEP may request up to two course units.</p>"
-        },
-        {
-          "id": "qual-e-a-regra-de-assiduidade",
-          "q": "What is the attendance rule?",
-          "a": "<p>Students without special status may not miss more than one third of the theoretical-practical, laboratory and field classes of each type. Failure to comply results in NF (Non-Attendance), which bars access to assessment.</p>"
-        },
-        {
-          "id": "o-que-significam-nf-sm-nc-ft",
-          "q": "What do NF, SM, NC, FT and AN mean?",
-          "a": "<ul><li><b>NF, Non-Attendance.</b> Minimum attendance criteria not met.</li><li><b>SM, Below minimum.</b> Did not reach the minimum of a non-repeatable component. Cannot sit examinations for that course unit in future periods that academic year.</li><li><b>NC, Not classified.</b> Did not reach the minimum of a repeatable component. May sit examinations in future periods that academic year.</li><li><b>FT, Absent.</b> Did not attend; counts as zero for calculation purposes.</li><li><b>AN, Annulled.</b> Element annulled for academic fraud; any calculation involving AN results in AN.</li></ul>"
-        },
-        {
-          "id": "como-sao-arredondadas-as-classificacoes",
-          "q": "How are grades rounded?",
-          "a": "<p>To whole numbers for final grades and to two decimal places for partial ones, rounding up from 5. A pass requires a final grade of 10 or above.</p>"
-        },
-        {
-          "id": "quando-sao-publicadas-as-classificacoes",
-          "q": "When are grades published?",
-          "a": "<p>Exclusively on the ISEP portal. Provisional grades must be published within 8 working days of the assessment, at least 72 hours before the normal-period assessment and, for normal-period grades, before the resit.</p>"
-        },
-        {
-          "id": "as-datas-de-avaliacao-podem-mudar",
-          "q": "Can assessment dates change?",
-          "a": "<p>Changes to assessments must be announced at least 48 hours in advance, via Moodle announcements, after validation by the Programme Director. Extraordinary changes to examination dates require at least 72 hours.</p>"
-        }
-      ]
-    },
-    {
-      "title": "Project/Dissertation (PREPD and DIMEI)",
-      "note": "<b>Proposals from companies and institutions.</b> Dissertation, project and internship proposals are submitted on the DEI Projects Portal. If you represent a company or institution, see the <a href='cooperacao.html'>Partnerships</a> page, which brings together this and other ways of working with the programme.",
-      "items": [
-        {
-          "id": "o-que-sao-prepd-e-dimei",
-          "q": "What are PREPD and DIMEI?",
-          "a": "<p><b>PREPD</b> (Dissertation Preparation) is the course unit in which the dissertation work is defined and prepared. <b>DIMEI</b> (Dissertation) is the development work that leads to the final dissertation, which is submitted to a public defence.</p><p>PREPD and DIMEI are separate course units with no formal link between them; it is, however, strongly recommended that they be taken in sequence and on the same project or theme. The whole process, from proposal to formalisation, takes place on the <a href='https://projetos.dei.isep.ipp.pt' target='_blank' rel='noopener'>projetos.dei.isep.ipp.pt</a> platform.</p>"
-        },
-        {
-          "id": "como-se-organiza-a-execucao-ao-longo",
-          "q": "How is the work organised across the year?",
-          "a": "<p>The work is developed, in an academic or business setting, by students who meet the conditions to enrol in the second year of the MEI, that is, first-year students who have completed 35.5 ECTS or more. It is divided across two semesters:</p><ul><li><b>PREPD (first semester).</b> Theoretical preparation of the work, with analysis of the problem and of the state of the art, in the \"Preparação da Dissertação\" course unit. It is carried out part-time, normally alongside other course units, and usually on ISEP premises. No substantial presence at the host organization is expected, but periodic meetings between student, supervisor and company should take place.</li><li><b>DIMEI (second semester).</b> The dissertation work itself, producing the contributions, full-time, with no other course units or tasks in parallel. When the work takes place in a business setting, it is expected to be carried out largely on the company's premises.</li></ul>"
-        },
-        {
-          "id": "como-decorre-o-processo-da-proposta-a",
-          "q": "How does the process work, from proposal to formalisation?",
-          "a": "<p>In three phases, all on the projects platform:</p><ol><li><b>Submission and validation.</b> The proposer (company, institution or faculty member) submits the proposal, which is validated on entry as to its quality, the suitability of the work and the conditions for carrying it out. Accepted proposals are published.</li><li><b>Publication and assignment.</b> Published proposals are circulated among students, who apply to the ones they want. The platform shows the proposer the applicants; student and proposer should make direct contact to gauge the fit between candidate and project. The assignment closes only with the agreement of both sides: on the platform, the student accepts the project and the proposer accepts the student.</li><li><b>Formalisation.</b> The student details the problem and the work plan and invites the supervision team, which must include an ISEP supervisor. Once validated and approved, the work is formalised.</li></ol><p><b>Students are encouraged to go beyond registering interest on the platform and to contact proposers directly; any approach from proposers is equally welcome.</b></p>"
-        },
-        {
-          "id": "onde-e-como-se-submete-uma-proposta",
-          "q": "Where and how is a proposal submitted?",
-          "a": "<p>Organizations wishing to host students register on the platform and must have the human and technical resources to support the student in the computing field. Submission is made exclusively at <a href='https://projetos.dei.isep.ipp.pt/home' target='_blank' rel='noopener'>projetos.dei.isep.ipp.pt</a>, selecting the academic year and the course unit “MEI — Projeto Tese” and filling in the information requested: title, problem and objectives.</p><p>Companies and institutions will find the various ways of working with the programme, including this one, on the <a href='cooperacao.html'>Partnerships</a> page.</p>"
-        },
-        {
-          "id": "o-que-se-espera-de-uma-boa",
-          "q": "What is expected of a good proposal?",
-          "a": "<ul><li>A concrete problem, with technical and/or business relevance, and measurable objectives.</li><li>A clear informatics engineering component: methodology, technologies and contributions.</li><li>A provisional work plan, with tasks and a schedule covering both semesters.</li><li>Grounding in the state of the art and a defined performance evaluation methodology.</li><li>A named contact at the host organization and clear hosting and mentoring conditions, where applicable.</li></ul><p><b>The premise is that a problem has been identified which is to be solved through an engineering project with some degree of innovation. Routine professional tasks are not suitable for a master's dissertation. The field is informatics engineering and related areas.</b></p>"
-        },
-        {
-          "id": "que-temas-podem-ser-propostos",
-          "q": "What themes may be proposed?",
-          "a": "<p>Indicatively, and without any claim to exhaust the possibilities:</p><ul><li>Generative AI applied to business problems (assistants, automation, information extraction).</li><li>Software engineering for AI-based systems (model quality, LLMOps and testing).</li><li>Cloud-native architectures, observability and microservice optimisation.</li><li>Application security, data protection and privacy by design.</li><li>Data platforms, MLOps and decision support.</li><li>Edge computing and IoT in industrial or smart-city settings.</li><li>Legacy system modernisation and information system integration.</li><li>Accessibility, adaptive UX and data-driven interfaces.</li><li>Blockchain for traceability, digital identity or smart contracts.</li><li>Augmented or virtual reality applied to training, maintenance or other purposes.</li></ul><p>The full catalogue of completed dissertations is available at <a href='https://recipp.ipp.pt' target='_blank' rel='noopener'>recipp.ipp.pt</a>.</p>"
-        },
-        {
-          "id": "qual-e-o-calendario-tipico",
-          "q": "What is the typical calendar?",
-          "a": "<p>The exact dates are set at the start of each academic year. Indicatively, the work begins by 31 October and is concluded between 15 June and 31 October of the following year (indicative dates). Proposals must be approved in time for the application and formalisation stages, which as a rule points to the end of September.</p>"
-        },
-        {
-          "id": "e-preciso-ter-orientador-do-isep-logo",
-          "q": "Must an ISEP supervisor be named in the proposal itself?",
-          "a": "<p>No. A proposal may be submitted without a confirmed supervisor. The ISEP supervisor is appointed at the formalisation stage, that is, after the application has been accepted, so this can be arranged later. It is, however, mandatory in order to complete formalisation.</p>"
-        },
-        {
-          "id": "posso-propor-o-meu-proprio-tema",
-          "q": "May I propose my own topic?",
-          "a": "<p>Yes. Besides proposals from companies, institutions and faculty, you may propose your own topic. The proposal must meet the usual conditions: a concrete problem, an Informatics Engineering component and a work plan. You need to find an ISEP faculty member willing to supervise you and submit the proposal on the platform, through that faculty member, where it goes through the approval process.</p>"
-        },
-        {
-          "id": "que-formatos-pode-assumir-o-trabalho-final",
-          "q": "What forms may the final project take?",
-          "a": "<p>Three: a dissertation of a technical-scientific nature, an applied project, or a professional internship with a final report. When it takes place in a business setting, it is supported by a collaboration protocol between the host institution and ISEP.</p><p>In any of these formats the work must meet the usual conditions: a concrete problem, an informatics engineering component, a work plan, and clear hosting and mentoring conditions.</p>"
-        },
-        {
-          "id": "posso-realizar-o-trabalho-final-na-empresa",
-          "q": "May I carry out the final project at the company where I work?",
-          "a": "<p>Yes. The final project may take the form of an applied project or a professional internship in a business setting, supported by a collaboration protocol between the host organization and ISEP. The proposal must meet the usual conditions (a concrete problem, an Informatics Engineering component, a work plan, and clear hosting and supervision arrangements), be submitted by the company and approved, and have an academic supervisor from ISEP.</p><p>If the work involves sensitive company information, confidentiality may be requested for up to three years. The work must nonetheless be original and carried out specifically for this purpose.</p>"
-        },
-        {
-          "id": "vou-fazer-estagio-no-ambito-do-dimei",
-          "q": "I am doing an internship as part of DIMEI. What do I need to know?",
-          "a": "<p>Even in the form of an internship, the work cannot consist of routine professional tasks: it must start from a concrete problem, with technical and/or business relevance and measurable objectives, show some degree of innovation and be grounded in the state of the art.</p><p>The internship follows ISEP's rules and takes place during the second semester. To safeguard the scientific and pedagogical objectives of the course unit and to address any confidentiality concerns of the host organization, an internship protocol is required; the template is available on the ISEP portal (search for “Protocolo_colab_Trab_Estag_estud_Mest”) and is usually accompanied by a confidentiality agreement. Once signed by the other parties, and digital signatures are accepted, it should be emailed to the DEI Secretariat (<a href='mailto:mlsb@isep.ipp.pt'>mlsb@isep.ipp.pt</a>).</p>"
-        },
-        {
-          "id": "quando-me-posso-inscrever-na-dissertacao",
-          "q": "When may I enrol in the dissertation?",
-          "a": "<p>There are two distinct moments. To enrol in the second year, where PREPD takes place, it is enough to meet the conditions for progression to the second year, that is, to have completed 35.5 ECTS or more of the first year. To enrol in the dissertation itself (DIMEI), the project or the internship, you must have completed at least 40 ECTS of the programme, under article 14(5) of ISEP's General Regulation for Master's Programmes.</p>"
-        },
-        {
-          "id": "quem-pode-orientar",
-          "q": "Who may supervise?",
-          "a": "<p>The supervision team must include a faculty member or researcher of ISEP; a co-supervisor may also be appointed. Only holders of a doctorate or of the title of Specialist of recognised professional experience and competence may supervise. In internships or projects within a company there may also be the figure of supervisor, for the host organization's technical leads. Article 15 of ISEP's General Regulation for Master's Programmes applies.</p>"
-        },
-        {
-          "id": "quem-aprova-os-temas-e-os-prazos",
-          "q": "Who approves the topics and the deadlines?",
-          "a": "<p>It falls to the Programme Director to approve the topics, through the projects platform, and to set the deadlines for submission and public defence, in accordance with the approved academic calendar. PREPD and DIMEI topics are typically submitted by faculty from early July onwards.</p>"
-        },
-        {
-          "id": "existe-um-template-para-a-tese",
-          "q": "Is there a thesis template?",
-          "a": "<p>Yes. The thesis templates are made available in the PREPD course unit, in two versions: Word and LaTeX. The LaTeX template is available on Overleaf as the <a href='https://www.overleaf.com/latex/templates/dei-slash-isep-tmdei-thesis-template/dtvkwwtwzccc' target='_blank' rel='noopener'>DEI/ISEP TMDEI thesis template</a> and can be copied directly to your account. In either case the cover, back-cover and formatting rules laid down in the Regulation apply.</p>"
-        },
-        {
-          "id": "como-e-feita-a-entrega",
-          "q": "How is the dissertation submitted?",
-          "a": "<p>In digital format only, submitting the document on the ISEP portal together with the application for admission to the public defence addressed to the President of ISEP, which is generated automatically with the submission. The cover, back-cover and template rules of the Regulation apply, as does the mandatory statement of integrity.</p>"
-        },
-        {
-          "id": "posso-pedir-confidencialidade",
-          "q": "May I request confidentiality?",
-          "a": "<p>Yes, where the work involves business organizations, for a maximum period of three years. The request is made when applying for the public defence and must be validated and justified by the jury, being recorded in the minutes.</p>"
-        },
-        {
-          "id": "o-que-acontece-se-nao-cumprir-o",
-          "q": "What happens if I miss the deadline?",
-          "a": "<p>The public defence must be concluded by the date set in ISEP's academic calendar. Exceptions may be authorised by the President of ISEP, having heard the Programme Director, upon request. Failure to comply entails re-enrolment in the programme or course unit and payment of the corresponding tuition fee.</p>"
-        },
-        {
-          "id": "como-e-composto-o-juri",
-          "q": "How is the jury composed?",
-          "a": "<p>Three to five members: the Programme Director, who chairs and may delegate to a doctoral faculty member in the field, and at least two members holding doctorates or the title of Specialist, expert in the domain of the work, one of whom may be the supervisor or co-supervisor.</p>"
-        },
-        {
-          "id": "como-decorrem-as-provas-publicas",
-          "q": "How does the public defence work?",
-          "a": "<p>In a public session lasting no more than 60 minutes: up to 20 minutes of presentation by the candidate and up to 40 minutes of discussion, divided equally between jury and candidate. The candidate must attend in person; an external member may take part by videoconference. The defence requires the whole jury to be present, failing which it is rescheduled. It may be held in another official EU language if accepted by the student and by all members of the jury.</p>"
-        },
-        {
-          "id": "como-e-atribuida-a-classificacao-da-defesa",
-          "q": "How is the defence grade awarded?",
-          "a": "<p>On a whole-number scale from 0 to 20, resulting from the simple arithmetic mean, rounded to the unit, of the grades awarded individually by each member of the jury, following a reasoned nominal vote with no abstentions.</p>"
-        }
-      ]
-    },
-    {
-      "title": "Completion and final grade",
-      "items": [
-        {
-          "id": "quando-e-conferido-o-grau-de-mestre",
-          "q": "When is the Master's degree conferred?",
-          "a": "<p>On those who obtain the full 120 ECTS of the study plan and pass the public discussion of the final work.</p>"
-        },
-        {
-          "id": "como-e-calculada-a-classificacao-final",
-          "q": "How is the final grade calculated?",
-          "a": "<p>A weighted arithmetic mean of the grades of the course units and of the public discussion, weighted by the ECTS of each course unit and of the final work. It is calculated to two decimal places and rounded to the unit, on a whole-number scale of 10 to 20, with an equivalent on the European comparability scale.</p>"
-        }
-      ]
-    }
-  ],
+    }  ],
 
   faqContacts: [
-    { "topic": "Questions about the programme, PEI, topics", "email": "mei@isep.ipp.pt" },
-    { "topic": "Registration, enrolment, tuition, enrolment regime", "email": "info-sa@isep.ipp.pt" },
-    { "topic": "Classes and timetables (MEI units)", "email": "turmasmesdei@isep.ipp.pt" },
-    { "topic": "Classes and timetables (LEI)", "email": "turmaslicdei@isep.ipp.pt" },
-    { "topic": "Internship protocols (DEI Office)", "email": "mlsb@isep.ipp.pt" }
+    { "topic": "Questions about the programme, admission and the PEI", "email": "mei@isep.ipp.pt" },
+    { "topic": "Registration, enrolment, tuition, credit recognition", "email": "info-sa@isep.ipp.pt" }
   ],
 
   /* Sites and platforms, kept apart from the e-mail contacts above. */
   faqLinks: [
     { "topic": "Applications and appeals", "label": "www.isep.ipp.pt/mestrados", "href": "https://www.isep.ipp.pt/mestrados" },
     { "topic": "Competition results", "label": "portal.isep.ipp.pt", "href": "https://portal.isep.ipp.pt" },
-    { "topic": "Dissertation, project and internship proposals", "label": "projetos.dei.isep.ipp.pt", "href": "https://projetos.dei.isep.ipp.pt/home" },
     { "topic": "Academic Division (Master's)", "label": "Academic Services", "href": "https://www.isep.ipp.pt/Page/ViewPage/divisao_academica_mest" }
   ],
 
   faqSources: [
     "Official call PRES-EDT003/2026, Admission to Master's Programmes, academic year 2026/2027 (ISEP, 29 May 2026)",
     "General Regulation for Master's Programmes of ISEP (Diário da República, 2nd series, no. 184, 21 Sep 2023)",
-    "ISEP Assessment Regulation, Regulation no. 1024/2021 (Diário da República, 2nd series, no. 249, 27 Dec 2021)",
     "Order no. 11560/2022, study plan of the Master in Informatics Engineering (Diário da República, 2nd series, no. 189, 29 Sep 2022)",
-    "Order IPP/P-098/2008, Master's programmes, calculation of the final average",
     "P.PORTO Regulation on Recognition and Crediting/Certification of Competencies (Diário da República, 2nd series, 2019)",
     "ISEP Academic Division, \"Access to Master's Programmes\" page (<a href='https://www.isep.ipp.pt/Page/ViewPage/divisao_academica_mest' target='_blank' rel='noopener'>isep.ipp.pt</a>), updated 02/06/2026"
   ],
@@ -934,8 +720,7 @@ window.MEI_EN = {
       { name: "Luís Nogueira", role: "Deputy Director", email: "lmn@isep.ipp.pt" }
     ],
     info: "mei@isep.ipp.pt",
-    academic: "info-sa@isep.ipp.pt",
-    classes: "turmasmesdei@isep.ipp.pt"
+    academic: "info-sa@isep.ipp.pt"
   },
 
   fifth: "The programme also includes the specialization in Information and Knowledge Systems, devoted to information modelling, knowledge management and decision support systems within organizations. Its detailed curriculum is available on the official programme page.",
